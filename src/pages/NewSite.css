@@ -33,12 +33,7 @@
 	color: #E3C0FF;
 }
 
-
-.vector2_newsite {
-	position: relative;
-	left: 180px;
-	bottom: 57px;
-}
+/*           ----------------------------           */
 
 .logo {
 	position: relative;
@@ -59,21 +54,37 @@
 	bottom: 0;
 	object-fit: contain;
 	opacity: 0;
-	transition: opacity .2s;
+	transition: opacity .5s;
 }
 
 .logo:hover img.image-hover {
 	opacity: 1;
 }
 
-.vec3-4box {
+/*           ----------------------------           */
+
+.vector_newsite_box {
 	position: relative;
 	width: 700px;
 	left: calc(50% - 350px);
 	top: 150px;
 }
 
-.vector_newsite {
+.vector_newsite_box img {
 	position: relative;
 	right: 100px;
 }
+
+.vector_newsite_box img.image-hover {
+	position: absolute;
+	object-fit: contain;
+	left: -100px;
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+.vector_newsite_box:hover img.image-hover {
+	opacity: 1;
+}
+
+/*           ----------------------------           */

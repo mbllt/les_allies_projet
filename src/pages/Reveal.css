@@ -26,9 +26,29 @@
 	right: 60px;
 }
 
-.vector_reveal {
+/*           ----------------------------           */
+
+.vector_reveal_box {
 	position: relative;
-	left: 345px;
-	bottom:160px;
+	width: 440px;
+	left: calc(50% - 220px);
 }
 
+.vector_reveal_box img {
+	position: relative;
+	top: -160px;
+	left: 100px;
+}
+
+.vector_reveal_box img.image-hover {
+	position: absolute;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+.vector_reveal_box:hover img.image-hover {
+	opacity: 1;
+}
+
+/*           ----------------------------           */

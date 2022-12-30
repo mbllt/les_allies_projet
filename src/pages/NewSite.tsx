@@ -13,8 +13,9 @@ const NewSite = () => {
 				<img className='logo_newsite image-main' src="logo.png" alt="logo"/>
 				<img className='logo_newsite image-hover' src="logo_purple.png" alt="logo_purple"/>
 			</div>
-			<div className='vec3-4box'>
-				<img className='vector_newsite' src="vector3-4.svg" alt="vector"/>
+			<div className="vector_newsite_box">
+				<img className='vector_newsite image-main' src="vector3-4.svg" alt="vector"/>
+				<img className='vector_newsite image-hover' src="vector3-4color.svg" alt="vector_yellow"/>
 			</div>
 		</div>
 	);

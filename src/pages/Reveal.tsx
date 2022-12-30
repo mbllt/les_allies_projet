@@ -7,7 +7,10 @@ const Reveal = () => {
 			<div className="central_text">
 				<p className='text_reveal'><strong>Bâtisseur de marque,<br />Accélérateur de</strong></p>
 				<img className='business_reveal' src="business.png" alt="business_text"/>
-				<img className='vector_reveal' src="vector1-2.svg" alt="vector"/>
+			<div className="vector_reveal_box">
+				<img className='vector_reveal image-main' src="vector1-2.svg" alt="vector"/>
+				<img className='vector_reveal image-hover' src="vector1-2color.svg" alt="vector_blue"/>
+			</div>
 			</div>
 		</div>
 	);

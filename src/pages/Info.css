@@ -40,7 +40,7 @@
 	left: -90px;
 }
 
-.vec5-6box {
+/* .vec5-6box {
 	position: relative;
 	width: 180px;
 	left: calc(50% - 90px);
@@ -50,4 +50,31 @@
 .vector_info {
 	position: relative;
 	left: 360px;
+} */
+
+/*           ----------------------------           */
+
+.vector_info_box {
+	position: relative;
+	width: 180px;
+	left: calc(50% - 90px);
+	top: -80px;
 }
+
+.vector_info_box img {
+	position: relative;
+	left: 360px;
+}
+
+.vector_info_box img.image-hover {
+	position: absolute;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .5s;
+}
+
+.vector_info_box:hover img.image-hover {
+	opacity: 1;
+}
+
+/*           ----------------------------           */
