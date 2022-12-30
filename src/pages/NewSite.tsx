@@ -3,7 +3,7 @@ import './NewSite.css';
 
 const NewSite = () => {
 	return (
-		<div className='newsite'>
+		<div id='newsite'>
 			<div className="text">
 				<p>L’agence se réinvente !</p>
 				<p>En attendant de découvrir notre nouveau site internet,</p>

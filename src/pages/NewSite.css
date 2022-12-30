@@ -1,4 +1,4 @@
-.newsite {
+#newsite {
 	height:100%;
 	width: 100vw;
 }
@@ -18,14 +18,15 @@
 
 .text p {
 	position:relative;
-	left: 110px;
+	left: 65px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	font-size: 18px;
 }
 
 .text :first-child {
 	position: relative;
-	left: 353px;
+	left: 339px;
 }
 
 .text :last-child {

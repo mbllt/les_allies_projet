@@ -24,7 +24,7 @@
 	width: 680px;
 	left: calc(50% - 340px);
 	display: flow-root;
-	top: 30px;
+	top: 0px;
 }
 
 .title_contact p {
@@ -46,6 +46,7 @@
 	position:relative;
 	width: 380px;
 	left: calc(50% - 190px);
+	font-size: 18px;
 }
 
 .text_contact {
@@ -54,29 +55,21 @@
 	top: 40px;
 }
 
-.mail_phone_box {
+.link_contact {
 	position: relative;
-	font-size: 24px;
-	width: 380px;
-	left: calc(50% - 190px);
-	display: flow-root;
-	height: 320px;
+	font-size: 18px;
+	top: 250px;
+	width: 1300px;
+	left: calc(50% - 700px);
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
 }
 
-.mail_phone_box p {
+.link_contact a {
 	position: relative;
-	left: 400px;
-	top: 100px;
-	float: right;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.mail_phone_box img {
-	position: relative;
-	width: 70px;
-	left: 600px;
-	top: 180px;
-	margin-left: 25px;
-	/* padding-bottom: 25px; */
+	width: min-content;
+	height: 30px;
 }

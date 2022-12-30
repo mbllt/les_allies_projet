@@ -26,21 +26,25 @@
 	margin-bottom: 0.5em;
 }
 
+.text_info p {
+	font-size: 18px;
+}
+
 .p1 {
 	position: relative;
-	left: -220px;
+	left: -240px;
 }
 
 .p2 {
 	position: relative;
-	left: -70px;
+	left: -90px;
 }
 
 .vec5-6box {
 	position: relative;
 	width: 180px;
 	left: calc(50% - 90px);
-	top: -60px;
+	top: -80px;
 }
 
 .vector_info {
