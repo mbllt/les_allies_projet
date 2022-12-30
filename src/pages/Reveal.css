@@ -6,7 +6,7 @@
 .central_text {
 	position: relative;
 	height: 660px;
-	padding-top: 320px;
+	padding-top: 13%;
 	width: 925px;
 	left: calc(50% - 430px);
 	display: flow-root;
@@ -14,8 +14,8 @@
 
 .text_reveal {
 	position: relative;
-	width: 800px;
-	font-size: 70px;
+	width: 30vw;
+	font-size: 2.83vw;
 }
 
 .business_reveal {
@@ -23,11 +23,11 @@
 	height: 90px;
 	float: right;
 	bottom: 170px;
-	right: 60px;
+	right: 6%;
 }
 
 .vector_reveal {
 	position: relative;
-	left: 345px;
-	bottom:160px;
+	left: 37.5%;
+	bottom: 24%;
 }
