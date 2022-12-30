@@ -1,5 +1,5 @@
 .newsite {
-	height:100vh;
+	height:100%;
 	width: 100vw;
 }
 
@@ -7,30 +7,25 @@
 	height: 60px;
 }
 
-.text_vector {
+.text {
 	position: relative;
 	height: 450px;
 	width: 850px;
 	left: calc(50% - 650px);
-	display: flow-root;
+	top: 340px;
 }
 
-.text {
-	box-sizing: border-box;
-	position: relative;
-	float: left;
-	top: 200px;
-	left: 130px;
-}
 
 .text p {
+	position:relative;
+	left: 110px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 }
 
 .text :first-child {
 	position: relative;
-	left: 242px;
+	left: 353px;
 }
 
 .text :last-child {
@@ -48,6 +43,7 @@
 	position: relative;
 	width: 440px;
 	left: calc(50% - 220px);
+	top: 100px;
 }
 
 .logo img {
@@ -69,14 +65,14 @@
 	opacity: 1;
 }
 
-.vec3box {
+.vec3-4box {
 	position: relative;
 	width: 700px;
 	left: calc(50% - 350px);
-	padding-top: 30px;
+	top: 150px;
 }
 
-.vector3_newsite {
+.vector_newsite {
 	position: relative;
-	right: 220px;
+	right: 100px;
 }

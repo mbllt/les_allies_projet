@@ -1,5 +1,5 @@
 .info {
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 }
 
@@ -7,30 +7,18 @@
 	height: 60px;
 }
 
-.vec4box {
-	position: relative;
-	width: 700px;
-	left: calc(50% - 350px);
-	top: -63px;
-}
-
-.vector4_info {
-	position: relative;
-	left: -90px;
-}
-
 .slogan_info {
 	position: relative;
 	width: 1050px;
 	left: calc(50% - 525px);
-	top: -90px;
+	top: 130px;
 }
 
 .text_info {
 	position: relative;
 	width: 850px;
 	left: calc(50% - 425px);
-	top: -60px;
+	top: 120px;
 }
 
 .text_info {
@@ -48,14 +36,14 @@
 	left: -70px;
 }
 
-.vec5box {
+.vec5-6box {
 	position: relative;
 	width: 180px;
 	left: calc(50% - 90px);
-	top: -280px;
+	top: -60px;
 }
 
-.vector5_info {
+.vector_info {
 	position: relative;
-	left: 310px;
+	left: 360px;
 }

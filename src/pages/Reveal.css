@@ -1,12 +1,12 @@
 #reveal {
-	height:100vh;
+	height:100%;
 	width: 100vw;
 }
 
 .central_text {
 	position: relative;
 	height: 660px;
-	padding-top: 280px;
+	padding-top: 320px;
 	width: 925px;
 	left: calc(50% - 430px);
 	display: flow-root;
@@ -28,8 +28,7 @@
 
 .vector_reveal {
 	position: relative;
-	height: 510px;
-	left: 420px;
+	left: 345px;
 	bottom:160px;
 }
 
