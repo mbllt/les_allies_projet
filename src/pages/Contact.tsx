@@ -3,15 +3,7 @@ import './Contact.css'
 
 const Contact = () => {
 	return (
-		<div className='contact'>
-			<div className='top'>
-				<a href='#top'>Reveal</a>
-				<img className='small_logo_contact' src="small_logo.png" alt="small_logo_la"/>
-				<a href='#bottom'>Contact</a>
-			</div>
-			<div className='vec6box'>
-				<img className='vector6_contact' src="vector6.png" alt="vector6"/>
-			</div>
+		<div id='contact'>
 			<div className='title_contact'>
 				<p>Contactez</p>
 				<img className='nous' src="nous.png" alt="nous"/>
@@ -22,10 +14,8 @@ const Contact = () => {
 			<div className='mail_phone_box'>
 				<p className='mail_contact'>noemie@lesalliésdelacom.com</p>
 				<p className='phone_contact'>06 32 95 14 76</p>
-				{/* <div className='reseaux_sociaux'> */}
-					<img className='insta_logo' src="insta_logo.png" alt="insta_logo"/>
-					<img className='linkedin_logo' src="linkedin_logo.png" alt="linkedin_logo"/>
-				{/* </div> */}
+				<img className='insta_logo' src="insta_logo.png" alt="insta_logo"/>
+				<img className='linkedin_logo' src="linkedin_logo.png" alt="linkedin_logo"/>
 			</div>
 		</div>
 	);

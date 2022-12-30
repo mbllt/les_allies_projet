@@ -1,20 +1,14 @@
-.reveal {
-	width: 100%;
-}
-
-.small_logo_reveal {
-	position: relative;
-	padding-top: 20px;
-	height: 60px;
-	left: calc(50% - 30px);
+#reveal {
+	height:100vh;
+	width: 100vw;
 }
 
 .central_text {
 	position: relative;
 	height: 660px;
-	padding-top: 200px;
-	width: 930px;
-	left: calc(50% - 465px);
+	padding-top: 280px;
+	width: 925px;
+	left: calc(50% - 430px);
 	display: flow-root;
 }
 
@@ -29,13 +23,13 @@
 	height: 90px;
 	float: right;
 	bottom: 170px;
-	right: 45px;
+	right: 60px;
 }
 
-.vector1_reveal {
+.vector_reveal {
 	position: relative;
 	height: 510px;
-	left: 440px;
-	bottom:155px;
+	left: 420px;
+	bottom:160px;
 }
 

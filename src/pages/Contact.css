@@ -1,5 +1,6 @@
-.contact {
-	width: 100%;
+#contact {
+	height: 100vh;
+	width: 100vw;
 }
 
 .small_logo_contact {
@@ -27,6 +28,7 @@
 
 .title_contact p {
 	position: absolute;
+	z-index: 1;
 	font-size: 110px;
 	top: -220px;
 	left: 250px;

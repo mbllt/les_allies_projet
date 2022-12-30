@@ -1,21 +1,6 @@
 .newsite {
-	width: 100%;
-}
-
-.top {
-	position: relative;
-	width: 270px;
-	left: calc(50% - 135px);
-	top: 40px;
-	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-end;
-}
-
-.top a {
-	text-decoration: none;
-	color: white;
+	height:100vh;
+	width: 100vw;
 }
 
 .small_logo_newsite {
@@ -35,7 +20,7 @@
 	position: relative;
 	float: left;
 	top: 200px;
-	left: 70px;
+	left: 130px;
 }
 
 .text p {
@@ -45,7 +30,7 @@
 
 .text :first-child {
 	position: relative;
-	left: 258px;
+	left: 242px;
 }
 
 .text :last-child {
@@ -55,7 +40,7 @@
 
 .vector2_newsite {
 	position: relative;
-	left: 100px;
+	left: 180px;
 	bottom: 57px;
 }
 
@@ -93,5 +78,5 @@
 
 .vector3_newsite {
 	position: relative;
-	right: 265px;
+	right: 220px;
 }

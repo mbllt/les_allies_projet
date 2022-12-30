@@ -8,6 +8,11 @@ import Contact from '../pages/Contact';
 function App() {
   return (
     <div className="App">
+      <div className='top'>
+				<a href='#reveal'>Reveal</a>
+				<img className='small_logo_newsite' src="small_logo.png" alt="small_logo_la"/>
+				<a href='#contact'>Contact</a>
+			</div>
       <Reveal/>
       <NewSite/>
       <Info/>

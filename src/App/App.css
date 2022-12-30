@@ -1,7 +1,25 @@
 .App {
-	height: 100%;
-	width: 100%;
+	height: 100vh;
+	width: 100vw;
 	margin: 0;
+	box-sizing: border-box;
 	font-family: 'Neue Haas Grotesk Text Pro', sans-serif;
+	font-weight: bold;
+}
 
+.top {
+	position: fixed;
+	width: 270px;
+	left: calc(50% - 135px);
+	top: 40px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+	z-index: 1;
+}
+
+.top a {
+	text-decoration: none;
+	color: white;
 }
