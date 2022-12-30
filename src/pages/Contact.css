@@ -1,0 +1,31 @@
+.contact {
+	width: 100%;
+}
+
+.top {
+	position: relative;
+	width: 270px;
+	left: calc(50% - 135px);
+	top: 40px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.small_logo_info {
+	height: 60px;
+}
+
+.vec6box {
+	background-color: red;
+	position: relative;
+	width: 100px;
+	left: calc(50% - 50px);
+	/* top: -63px; */
+}
+
+.vector6_info {
+	position: relative;
+	/* left: -90px; */
+}

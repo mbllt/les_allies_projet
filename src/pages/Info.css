@@ -1,0 +1,71 @@
+.info {
+	width: 100%;
+}
+
+.top {
+	position: relative;
+	width: 270px;
+	left: calc(50% - 135px);
+	top: 40px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.small_logo_info {
+	height: 60px;
+}
+
+.vec4box {
+	position: relative;
+	width: 700px;
+	left: calc(50% - 350px);
+	top: -63px;
+}
+
+.vector4_info {
+	position: relative;
+	left: -90px;
+}
+
+.slogan_info {
+	position: relative;
+	width: 1050px;
+	left: calc(50% - 525px);
+	top: -90px;
+}
+
+.text_info {
+	position: relative;
+	width: 850px;
+	left: calc(50% - 425px);
+	top: -60px;
+}
+
+.text_info {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.p1 {
+	position: relative;
+	left: -220px;
+}
+
+.p2 {
+	position: relative;
+	left: -70px;
+}
+
+.vec5box {
+	position: relative;
+	width: 180px;
+	left: calc(50% - 90px);
+	top: -280px;
+}
+
+.vector5_info {
+	position: relative;
+	left: 310px;
+}

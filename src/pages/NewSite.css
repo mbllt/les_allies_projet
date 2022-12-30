@@ -1,0 +1,92 @@
+.newsite {
+	width: 100%;
+}
+
+.top {
+	position: relative;
+	width: 270px;
+	left: calc(50% - 135px);
+	top: 40px;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.small_logo_newsite {
+	height: 60px;
+}
+
+.text_vector {
+	position: relative;
+	height: 450px;
+	width: 850px;
+	left: calc(50% - 650px);
+	display: flow-root;
+}
+
+.text {
+	box-sizing: border-box;
+	position: relative;
+	float: left;
+	top: 200px;
+	left: 70px;
+}
+
+.text p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.text :first-child {
+	position: relative;
+	left: 258px;
+}
+
+.text :last-child {
+	color: #E3C0FF;
+}
+
+
+.vector2_newsite {
+	position: relative;
+	left: 100px;
+	bottom: 57px;
+}
+
+.logo {
+	position: relative;
+	width: 440px;
+	left: calc(50% - 220px);
+}
+
+.logo img {
+	height: 220px;
+}
+
+.logo img.image-hover {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	object-fit: contain;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.logo:hover img.image-hover {
+	opacity: 1;
+}
+
+.vec3box {
+	position: relative;
+	width: 700px;
+	left: calc(50% - 350px);
+	padding-top: 30px;
+}
+
+.vector3_newsite {
+	position: relative;
+	right: 265px;
+}

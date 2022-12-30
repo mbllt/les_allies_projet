@@ -1,0 +1,41 @@
+.reveal {
+	width: 100%;
+}
+
+.small_logo_reveal {
+	position: relative;
+	padding-top: 20px;
+	height: 60px;
+	left: calc(50% - 30px);
+}
+
+.central_text {
+	position: relative;
+	height: 660px;
+	padding-top: 200px;
+	width: 930px;
+	left: calc(50% - 465px);
+	display: flow-root;
+}
+
+.text_reveal {
+	position: relative;
+	width: 800px;
+	font-size: 70px;
+}
+
+.business_reveal {
+	position: relative;
+	height: 90px;
+	float: right;
+	bottom: 170px;
+	right: 45px;
+}
+
+.vector1_reveal {
+	position: relative;
+	height: 510px;
+	left: 440px;
+	bottom:155px;
+}
+
