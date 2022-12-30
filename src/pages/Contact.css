@@ -44,15 +44,15 @@
 
 .text_box {
 	position:relative;
-	width: 380px;
-	left: calc(50% - 190px);
-	font-size: 18px;
+	width: 1200px;
+	left: calc(50% - 600px);
+	font-size: 20px;
 }
 
 .text_contact {
 	position: relative;
-	left: -260px;
-	top: 40px;
+	left: 20px;
+	top: 50px;
 }
 
 .link_contact {
@@ -72,4 +72,20 @@
 	position: relative;
 	width: min-content;
 	height: 30px;
+}
+
+.mail_contact:hover {
+	color: #B84DFF;
+}
+
+.phone_contact:hover {
+	color:#FFFF66;
+}
+
+.indeed:hover {
+	color:#00CCFF;
+}
+
+.insta:hover {
+	color: #33FF99;
 }

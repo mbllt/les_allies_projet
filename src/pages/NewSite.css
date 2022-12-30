@@ -18,15 +18,14 @@
 
 .text p {
 	position:relative;
-	left: 65px;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 .text :first-child {
 	position: relative;
-	left: 339px;
+	left: 303px;
 }
 
 .text :last-child {
