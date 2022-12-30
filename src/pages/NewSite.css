@@ -13,6 +13,11 @@
 	align-items: flex-end;
 }
 
+.top a {
+	text-decoration: none;
+	color: white;
+}
+
 .small_logo_newsite {
 	height: 60px;
 }

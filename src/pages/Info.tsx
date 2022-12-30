@@ -5,9 +5,9 @@ const Info = () => {
 	return (
 		<div className='info'>
 			<div className='top'>
-				<a>Reveal</a>
+				<a href='#top'>Reveal</a>
 				<img className='small_logo_info' src="small_logo.png" alt="small_logo_la"/>
-				<a>Contact</a>
+				<a href='#bottom'>Contact</a>
 			</div>
 			<div className='vec4box'>
 				<img className='vector4_info' src="vector4.png" alt="vector4"/>

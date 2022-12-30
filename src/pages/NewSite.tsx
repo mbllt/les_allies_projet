@@ -5,9 +5,9 @@ const NewSite = () => {
 	return (
 		<div className='newsite'>
 			<div className='top'>
-				<a>Reveal</a>
+				<a href='#top'>Reveal</a>
 				<img className='small_logo_newsite' src="small_logo.png" alt="small_logo_la"/>
-				<a>Contact</a>
+				<a href='#bottom'>Contact</a>
 			</div>
 			<div className="text_vector">
 				<img className='vector2_newsite' src="vector2.png" alt="vector2"/>
