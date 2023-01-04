@@ -23,7 +23,6 @@
 
 .top {
 	position: fixed;
-	/* width: 270px; */
 	left: calc(50% - 135px);
 	top: 40px;
 	display:flex;
@@ -52,7 +51,7 @@
 	body {
 		padding-right: 4em;
 	}
-	
+
 	#reveal {
 		top: 14em;
 	}

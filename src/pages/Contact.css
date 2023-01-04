@@ -3,69 +3,43 @@
 	width: 100vw;
 }
 
-.small_logo_contact {
-	height: 60px;
-}
-
-.vec6box {
-	position: relative;
-	width: 90px;
-	left: calc(50% - 45px);
-	top: -85px;
-}
-
-.vector6_contact {
-	position: relative;
-	left: 400px;
-}
-
 .title_contact {
 	position: relative;
-	width: 680px;
-	left: calc(50% - 340px);
-	display: flow-root;
-	top: 0px;
+	font-size: 6em;
+	font-weight: bold;
+	top: -810px;
+	left: calc(50% - 180px);
 }
 
-.title_contact p {
-	position: absolute;
-	z-index: 1;
-	font-size: 110px;
-	top: -220px;
-	left: 180px;
-}
-
-.title_contact img {
+.nous {
 	position: relative;
-	float: right;
-	top: -40px;
-	left: 220px;
-}
-
-.text_box {
-	position:relative;
-	width: 1200px;
-	left: calc(50% - 600px);
-	font-size: 20px;
+	font-family:'gotcha-regular';
+	color:#E3C0FF;
+	font-size: 1.7em;
+	font-weight: normal;
+	top: 30px;
+	left: calc(50% - 810px);
+	z-index: 1 !important;
 }
 
 .text_contact {
 	position: relative;
-	left: 20px;
-	top: 50px;
+	left: calc(50% - 600px);
+	top: -750px;
+	font-size: 20px;
 }
 
 .link_contact {
 	position: relative;
 	font-size: 18px;
-	top: 250px;
+	top: -500px;
 	width: 1300px;
 	left: calc(50% - 700px);
 	height: 70px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	align-items: flex-start;
+	align-items: flex-end;
 }
 
 .link_contact a {
@@ -74,18 +48,8 @@
 	height: 30px;
 }
 
-.mail_contact:hover {
-	color: #B84DFF;
-}
-
-.phone_contact:hover {
-	color:#FFFF66;
-}
-
-.indeed:hover {
-	color:#00CCFF;
-}
-
-.insta:hover {
-	color: #33FF99;
+.link_contact img {
+	position: relative;
+	height: 50px;
+	top: 5px;
 }
