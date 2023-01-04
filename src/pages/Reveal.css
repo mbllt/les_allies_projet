@@ -2,15 +2,17 @@
 	position: relative;
 	/* height:100%; */
 	width: 100vw;
+	top: 450px;
 }
 
 .text_reveal {
 	position: relative;
 	font-family: 'NeueHaas75Bold';
-	font-size: 5.5em;
+	font-size: 4.3em;
 	display: inline-block;
 	text-align: left;
-	top: 3.5em;
+	letter-spacing: 3px;
+	right: 20px;
 }
 
 .business {
@@ -21,6 +23,6 @@
 
 .vector_reveal {
 	position: relative;
-	left: calc(50% - 2.3em);
-	top: 3em;
+	left: calc(50% - 4%);
+	top: -12em;
 }
