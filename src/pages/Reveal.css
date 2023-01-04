@@ -1,38 +1,59 @@
 #reveal {
 	position: relative;
-	height:100%;
 	width: 100vw;
-	top: 450px;
 }
 
-.text_reveal {
+.box.reveal {
 	position: relative;
+	width: 950px;
+	height: 650px;
+	left: calc(50% - 480px);
+	top: 200px;
+}
+
+.slogan {
+	position: absolute;
 	font-family: 'NeueHaas55';
-	font-size: 4.3em;
-	display: inline-block;
+	font-size: 100px;
+}
+
+.slogan.reveal {
 	text-align: left;
 	letter-spacing: 3px;
-	right: 20px;
+}
+
+#communication {
+	font-weight: bold;
 }
 
 .agile {
-	position: absolute;
+	position: relative;
 	font-family:'gotcha-regular';
 	color:#E3C0FF;
-	font-size: 7em;
-	top: 90px;
-	left: calc(50% + 15%);
-	z-index: 1;
+	font-size: 160px;
+	top: 305px;
+	left: 650px;
 }
 
-.business {
-	/* font-family:'NeueHaas75Bold'; */
-	/* font-size: 1.4em; */
+.text {
+	position: relative;
+	font-family: 'NeueHaas55';
+	font-size: 23px;
+	text-align: left;
+}
+
+#allies {
+	color:#E3C0FF;
 	font-weight: bold;
+}
+
+.text.reveal {
+	top: 130px;
+	left: 17px;
 }
 
 .vector_reveal {
 	position: relative;
-	left: calc(50% - 5.9%);
-	top: -12em;
+	left: calc(50% - 130px);
+	top: 50px;
 }
