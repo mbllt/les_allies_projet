@@ -48,5 +48,30 @@
 
 
 @media (max-width :1180px) {
+	body {
+		padding-right: 4em;
+	}
+	
+	#reveal {
+		top: 14em;
+	}
 
+	.text_reveal {
+		text-align: center !important;
+		font-size: 3em !important;
+	}
+
+	.vector_reveal {
+		height: 40em !important;
+	}
+}
+
+@media (max-width :660px) {
+	.top img {
+		height: 2em;
+	}
+	
+	#reveal {
+		top: 2em !important;
+	}
 }

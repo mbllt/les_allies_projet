@@ -1,19 +1,26 @@
-/* #reveal {
-	height:100%;
+#reveal {
+	position: relative;
+	/* height:100%; */
 	width: 100vw;
-} */
+}
 
 .text_reveal {
 	position: relative;
 	font-family: 'NeueHaas75Bold';
-	font-size:100px;
+	font-size: 5.5em;
 	display: inline-block;
 	text-align: left;
-	top: 4.5em;
+	top: 3.5em;
+}
+
+.business {
+	font-family:'gotcha-regular';
+	color:#E3C0FF;
+	font-size: 1.4em;
 }
 
 .vector_reveal {
 	position: relative;
-	left: 345px;
-	bottom: 160px;
+	left: calc(50% - 2.3em);
+	top: 3em;
 }
