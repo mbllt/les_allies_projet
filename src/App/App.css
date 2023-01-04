@@ -45,8 +45,6 @@
 	font-size: 20px;
 }
 
-
-
 @media (max-width :1180px) {
 	body {
 		padding-right: 4em;
@@ -63,6 +61,42 @@
 
 	.vector_reveal {
 		height: 40em !important;
+		top: -140px !important;
+		left: calc(50% - 45px) !important;
+	}
+
+	.text {
+		left: calc(50% - 180px) !important;
+		top: 80px !important;
+	}
+
+	.text p {
+		font-size: 15px !important;
+	}
+
+	.text :first-child {
+		left: 193px !important;
+	}
+
+	.logo {
+		top: 210px !important;
+		left: calc(50% - 200px) !important;
+	}
+	
+	.logo img {
+		height: 180px !important;
+	}
+
+	.vector_newsite {
+		height: 25em !important;
+		top: 100px;
+		left: calc(50% - 270px);
+	}
+	
+	.vector_info {
+		height: 40em !important;
+		/* top: -140px !important;
+		left: calc(50% - 45px) !important; */
 	}
 }
 
@@ -72,6 +106,22 @@
 	}
 	
 	#reveal {
-		top: 2em !important;
+		top: 9em !important;
+	}
+
+	.text {
+		top: -220px !important;
+	}
+
+	.logo {
+		top: -60px !important;
+		left: calc(50% - 200px) !important;
+	}
+
+	
+	.vector_newsite {
+		height: 20em !important;
+		top: -190px;
+		left: calc(50% - 200px) !important;
 	}
 }
