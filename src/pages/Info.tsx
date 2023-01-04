@@ -6,7 +6,6 @@ const Info = () => {
 		<div className='info'>
 			<div className='slogan_info'>
 				<p>Stratégie,<br/>Formation,<br/>Communication.</p>
-				<p>agile</p>
 			</div>
 			<div className='text_info'>
 				<p className='p1'>L’image et la réputation de votre entreprise conditionne<br />sa performance et sa croissance.</p>

@@ -17,17 +17,6 @@
 	letter-spacing: 2px;
 }
 
-.slogan_info :last-child {
-	position: relative;
-	font-family:'gotcha-regular';
-	color:#E3C0FF;
-	font-size: 1.7em;
-	font-weight: normal;
-	top: -320px;
-	left: calc(50% - 11%);
-	z-index: 1 !important;
-}
-
 .text_info {
 	position: relative;
 	width: 850px;

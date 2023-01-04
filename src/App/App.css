@@ -1,27 +1,33 @@
 @font-face {
 	font-family: 'gotcha-regular' ;
-	src: url('/gotcha-regular.ttf') format('truetype');
+	src: url('/assets/fonts/gotcha-regular.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'NeueHaas75Bold' ;
-	src: url('/NeueHaasDisplayBold.ttf') format('truetype');
+	src: url('/assets/fonts/NeueHaasDisplayBold.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'NeueHaas55' ;
-	src: url('/NeueHaasDisplayRoman.ttf') format('truetype');
+	src: url('/assets/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
 }
+
+@font-face {
+	font-family: 'NeueHaas65' ;
+	src: url('/assets/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+}
+
 
 .App {
 	max-width: 1540vw - 160px;
 	width: 100vw;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'NeueHaas55', sans-serif;
+	font-family: 'NeueHaas65', sans-serif;
 }
 
-.top {
+.navbar {
 	position: fixed;
 	left: calc(50% - 135px);
 	top: 40px;
@@ -30,14 +36,22 @@
 	justify-content: space-around;
 	align-items: flex-end;
 	z-index: 1;
-	
 }
 
-.top a {
+.navbar a {
+	position: relative;
+	top: -5px;
 	text-decoration: none;
 	color: white;
 	padding-left: 40px;
 	padding-right: 40px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+
+.navbar.active a {
+	color: transparent;
 }
 
 .p {

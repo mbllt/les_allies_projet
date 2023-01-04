@@ -4,10 +4,11 @@ import './Reveal.css';
 const Reveal = () => {
 	return (
 		<div id='reveal'>
-			<div style={{textAlign:'center'}}>
-				<p className='text_reveal'>Bâtisseur de marque,<br /> Accélérateur de <span className='business'>business</span></p>
+			<div className='box_text_reveal' style={{textAlign:'center'}}>
+				<p className='text_reveal'>Branding,<br />Formation,<br/><span className='business'>Communication</span></p>
+				<p className='agile'>agile</p>
 			</div>
-			<img className='vector_reveal' src="vector1-2.svg" alt="vector"/>
+			<img className='vector_reveal' src="/assets/vec/vec1.svg" alt="vector"/>
 		</div>
 	);
 };

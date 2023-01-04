@@ -7,7 +7,7 @@
 
 .text_reveal {
 	position: relative;
-	font-family: 'NeueHaas75Bold';
+	font-family: 'NeueHaas55';
 	font-size: 4.3em;
 	display: inline-block;
 	text-align: left;
@@ -15,10 +15,20 @@
 	right: 20px;
 }
 
-.business {
+.agile {
+	position: absolute;
 	font-family:'gotcha-regular';
 	color:#E3C0FF;
-	font-size: 1.4em;
+	font-size: 7em;
+	top: 90px;
+	left: calc(50% + 15%);
+	z-index: 1;
+}
+
+.business {
+	/* font-family:'NeueHaas75Bold'; */
+	/* font-size: 1.4em; */
+	font-weight: bold;
 }
 
 .vector_reveal {
