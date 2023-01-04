@@ -9,16 +9,30 @@
 
 .slogan_info {
 	position: relative;
-	width: 1050px;
-	left: calc(50% - 525px);
-	top: 130px;
+	font-size: 6em;
+	left: calc(50% - 500px);
+	top: 35px;
+	font-weight: bold !important;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+}
+
+.slogan_info :last-child {
+	position: relative;
+	font-family:'gotcha-regular';
+	color:#E3C0FF;
+	font-size: 1.7em;
+	font-weight: normal;
+	top: -320px;
+	left: calc(50% - 11%);
+	z-index: 1 !important;
 }
 
 .text_info {
 	position: relative;
 	width: 850px;
-	left: calc(50% - 425px);
-	top: 120px;
+	left: calc(50% - 380px);
+	top: -410px;
 }
 
 .text_info {
@@ -40,14 +54,8 @@
 	left: -90px;
 }
 
-.vec5-6box {
-	position: relative;
-	width: 180px;
-	left: calc(50% - 90px);
-	top: -90px;
-}
-
 .vector_info {
 	position: relative;
-	left: 360px;
+	left: calc(50% + 140px);
+	top: -630px;
 }

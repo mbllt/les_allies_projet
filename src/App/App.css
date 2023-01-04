@@ -23,7 +23,7 @@
 
 .top {
 	position: fixed;
-	width: 270px;
+	/* width: 270px; */
 	left: calc(50% - 135px);
 	top: 40px;
 	display:flex;
@@ -31,11 +31,14 @@
 	justify-content: space-around;
 	align-items: flex-end;
 	z-index: 1;
+	
 }
 
 .top a {
 	text-decoration: none;
 	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .p {
@@ -92,11 +95,33 @@
 		top: 100px;
 		left: calc(50% - 270px);
 	}
-	
+
+	.slogan_info {
+		font-size: 3.8em !important;
+		top: 190px !important;
+		left: calc(50% - 320px) !important;
+	}
+
+	.slogan_info :last-child {
+		font-size: 1.8em !important;
+		top: -170px !important;
+		left: calc(50% - 0px) !important;
+	}
+
+	.text_info {
+		width: 550px !important;
+		left: calc(50% - 130px) !important;
+		top: 0px !important;
+	}
+
+	.text_info p {
+		font-size: 15px !important;
+	}
+
 	.vector_info {
-		height: 40em !important;
-		/* top: -140px !important;
-		left: calc(50% - 45px) !important; */
+		height: 35em !important;
+		top: -200px !important;
+		left: calc(50% + 120px) !important;
 	}
 }
 
@@ -118,10 +143,37 @@
 		left: calc(50% - 200px) !important;
 	}
 
-	
 	.vector_newsite {
 		height: 20em !important;
 		top: -190px;
 		left: calc(50% - 200px) !important;
+	}
+
+	.slogan_info {
+		font-size: 2.7em !important;
+		top: -80px !important;
+		left: calc(50% - 200px) !important;
+	}
+
+	.slogan_info :last-child {
+		font-size: 1.8em !important;
+		top: -150px !important;
+		left: 260px !important;
+	}
+
+	.text_info {
+		width: 300px !important;
+		top: -250px !important;
+		left: calc(50% + 20px) !important;
+	}
+
+	.text_info p {
+		font-size: 11px !important;
+	}
+
+	.vector_info {
+		height: 30em !important;
+		top: -400px !important;
+		left: calc(50% + 60px) !important;
 	}
 }

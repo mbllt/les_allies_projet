@@ -15,8 +15,8 @@ function App() {
 			</div>
       <Reveal/>
       <NewSite/>
-      {/* <Info/>
-      <Contact/> */}
+      <Info/>
+      {/* <Contact/> */}
     </div>
   )
 }
