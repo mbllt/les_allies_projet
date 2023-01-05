@@ -24,169 +24,43 @@
 	width: 100vw;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'NeueHaas65', sans-serif;
+	font-family: 'NeueHaas55', sans-serif;
+	font-size: 23px;
 }
 
-.navbar {
-	position: fixed;
-	left: calc(50% - 135px);
-	top: 40px;
-	display:flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-end;
-	z-index: 1;
+.vector_reveal {
+	position: absolute;
+	left: calc(50% - 110px);
+	top: 840px;
 }
 
-.navbar a {
-	position: relative;
-	top: -5px;
-	text-decoration: none;
-	color: white;
-	padding-left: 40px;
-	padding-right: 40px;
-	font-size: 20px;
-	letter-spacing: 1px;
-}
+@media (max-width: 1180px) {
 
-
-.navbar.active a {
-	color: transparent;
-}
-
-.p {
-	position: relative;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	font-size: 20px;
-}
-
-@media (max-width :1180px) {
-	body {
-		padding-right: 4em;
+	.slogan {
+		font-size: 80px !important;
 	}
 
-	#reveal {
-		top: 14em;
-	}
-
-	.text_reveal {
-		text-align: center !important;
-		font-size: 3em !important;
+	.text {
+		font-size: 19px !important;
 	}
 
 	.vector_reveal {
-		height: 40em !important;
-		top: -140px !important;
-		left: calc(50% - 45px) !important;
-	}
-
-	.text {
-		left: calc(50% - 180px) !important;
-		top: 80px !important;
-	}
-
-	.text p {
-		font-size: 15px !important;
-	}
-
-	.text :first-child {
-		left: 193px !important;
-	}
-
-	.logo {
-		top: 210px !important;
-		left: calc(50% - 200px) !important;
-	}
-	
-	.logo img {
-		height: 180px !important;
-	}
-
-	.vector_newsite {
-		height: 25em !important;
-		top: 100px;
-		left: calc(50% - 270px);
-	}
-
-	.slogan_info {
-		font-size: 3.8em !important;
-		top: 190px !important;
-		left: calc(50% - 320px) !important;
-	}
-
-	.slogan_info :last-child {
-		font-size: 1.8em !important;
-		top: -170px !important;
-		left: calc(50% - 0px) !important;
-	}
-
-	.text_info {
-		width: 550px !important;
-		left: calc(50% - 130px) !important;
-		top: 0px !important;
-	}
-
-	.text_info p {
-		font-size: 15px !important;
-	}
-
-	.vector_info {
-		height: 35em !important;
-		top: -200px !important;
-		left: calc(50% + 120px) !important;
+		left: calc(50% - 140px);
 	}
 }
 
-@media (max-width :660px) {
-	.top img {
-		height: 2em;
-	}
-	
-	#reveal {
-		top: 9em !important;
+@media (max-width: 900px) {
+
+	.slogan {
+		font-size: 40px !important;
 	}
 
 	.text {
-		top: -220px !important;
+		font-size: 15px !important;
 	}
 
-	.logo {
-		top: -60px !important;
-		left: calc(50% - 200px) !important;
-	}
-
-	.vector_newsite {
-		height: 20em !important;
-		top: -190px;
-		left: calc(50% - 200px) !important;
-	}
-
-	.slogan_info {
-		font-size: 2.7em !important;
-		top: -80px !important;
-		left: calc(50% - 200px) !important;
-	}
-
-	.slogan_info :last-child {
-		font-size: 1.8em !important;
-		top: -150px !important;
-		left: 260px !important;
-	}
-
-	.text_info {
-		width: 300px !important;
-		top: -250px !important;
-		left: calc(50% + 20px) !important;
-	}
-
-	.text_info p {
-		font-size: 11px !important;
-	}
-
-	.vector_info {
-		height: 30em !important;
-		top: -400px !important;
-		left: calc(50% + 60px) !important;
+	.vector_reveal {
+		left: calc(50% - 307px);
+		top: 430px;
 	}
 }

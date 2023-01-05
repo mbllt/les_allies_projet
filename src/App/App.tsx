@@ -12,6 +12,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <Reveal/>
+			<img className='vector_reveal' src="/assets/vec/vec1.svg" alt="vector"/>
       {/* <NewSite/>
       <Info/>
       <Contact/> */}

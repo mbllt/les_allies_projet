@@ -1,20 +1,16 @@
 #reveal {
 	position: relative;
-	width: 100vw;
-}
-
-.box.reveal {
-	position: relative;
+	top: 300px;
 	width: 950px;
 	height: 650px;
 	left: calc(50% - 480px);
-	top: 200px;
 }
 
 .slogan {
 	position: absolute;
 	font-family: 'NeueHaas55';
 	font-size: 100px;
+	z-index: 2;
 }
 
 .slogan.reveal {
@@ -26,20 +22,25 @@
 	font-weight: bold;
 }
 
-.agile {
-	position: relative;
+#agile {
+	position: absolute;
 	font-family:'gotcha-regular';
 	color:#E3C0FF;
 	font-size: 160px;
-	top: 305px;
+	top: 145px;
 	left: 650px;
+	z-index: 1;
 }
 
 .text {
 	position: relative;
-	font-family: 'NeueHaas55';
-	font-size: 23px;
 	text-align: left;
+	word-spacing: 4px;
+}
+
+.text.reveal {
+	top: 530px;
+	left: 0px;
 }
 
 #allies {
@@ -47,13 +48,39 @@
 	font-weight: bold;
 }
 
-.text.reveal {
-	top: 130px;
-	left: 17px;
+@media (max-width: 1180px) {
+
+	#reveal {
+		width: 600px;
+		left: calc(50% - 350px);
+	}
+
+	#agile {
+		font-size: 130px;
+		left: 525px;
+		top: 110px;
+	}
+
+	.text.reveal {
+		top: 420px;
+	}
 }
 
-.vector_reveal {
-	position: relative;
-	left: calc(50% - 130px);
-	top: 50px;
+@media (max-width: 900px) {
+
+	#reveal {
+		width: 400px;
+		left: calc(50% - 200px);
+		top: 180px;
+	}
+
+	#agile {
+		font-size: 70px;
+		left: 280px;
+		top: 50px;
+	}
+
+	.text.reveal {
+		top: 250px;
+	}
 }
