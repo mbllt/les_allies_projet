@@ -61,3 +61,22 @@
 		right: -30px;
 	}
 }
+
+@media (max-width: 400px) {
+
+	#info {
+		padding-top: 0px;
+	}
+
+	.slogan.info {
+		font-size: 23px;
+		top: -110px;
+		left: calc(50% - 120px);
+	}
+
+	.business {
+		font-size: 35px;
+		top: 75px;
+		left: 0px;
+	}
+}

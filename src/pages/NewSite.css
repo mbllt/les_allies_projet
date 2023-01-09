@@ -125,3 +125,42 @@
 		margin-bottom: -10px;
 	}
 }
+
+@media (max-width: 400px) {
+
+	#newsite {
+		top: -500px;
+	}
+
+	.logo {
+		top: -40px;
+		left: calc(50% - 210px);
+	}
+
+	.logo .les {
+		font-size: 50px;
+		top: 170px;
+		left: 125px;
+	}
+
+	.logo .allies {
+		font-size: 100px;
+	}
+
+	.logo .com {
+		font-size: 11px;
+		top: -135px;
+		left: 115px;
+		letter-spacing: 2px;
+	}
+
+	.text.newsite {
+		right: calc(50% - 80px);
+		top: 460px;
+	}
+
+	.text.newsite :first-child {
+		font-size: 12px;
+		margin-bottom: -4px;
+	}
+}

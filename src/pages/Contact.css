@@ -144,3 +144,32 @@
 		padding-top: 50px;
 	}
 }
+
+@media (max-width: 400px) {
+
+	#contact {
+		top: 360px;
+	}
+
+	.slogan.contact {
+		font-size: 27px;
+	}
+
+	.logo_contact {
+		left: -10px;
+	}
+	
+	.logo_contact .les {
+		top: 100px;
+		right: 155px;
+	}
+	
+	.logo_contact .com {
+		top: 222px;
+		left: 40px;
+	}
+
+	.link_contact {
+		padding-top: 50px;
+	}
+}
