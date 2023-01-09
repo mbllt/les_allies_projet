@@ -91,11 +91,11 @@
 @media (max-width: 600px) {
 
 	#newsite {
-		top: -450px;
+		top: -400px;
 	}
 
 	.logo {
-		top: -200px;
+		top: -180px;
 		left: calc(50% - 210px);
 	}
 
@@ -117,7 +117,7 @@
 
 	.text.newsite {
 		right: calc(50% - 80px);
-		top: 490px;
+		top: 460px;
 	}
 
 	.text.newsite :first-child {

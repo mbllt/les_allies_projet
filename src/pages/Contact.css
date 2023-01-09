@@ -113,24 +113,34 @@
 @media (max-width: 600px) {
 
 	#contact {
-		top: 200px;
+		top: 270px;
 	}
 
 	.slogan.contact {
 		font-size: 38px;
-		right: 40px !important;
+		right: 0px !important;
 	}
 	
 	.text.contact {
-		top: -20px;
-		right: 40px !important;
+		top: 0px;
+		right: 0px !important;
+	}
+
+	.logo_contact {
+		padding-top: 50px;
 	}
 	
 	.logo_contact .les {
+		top: 100px;
 		right: 210px;
 	}
 	
 	.logo_contact .com {
+		top: 220px;
 		left: 90px;
+	}
+
+	.link_contact {
+		padding-top: 50px;
 	}
 }

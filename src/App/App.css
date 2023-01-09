@@ -111,8 +111,76 @@
 	
 	.vector1 {
 		left: calc(50% - 90px);
-		top: 410px;
+		top: 520px;
 		height: 600px;
+	}
+
+	.vector2 {
+		left: calc(50% - 260px);
+		top: 1060px;
+		height: 600px;
+	}
+	
+	.vector3 {
+		left: calc(50% - 200px);
+		top: 1680px;
+		height: 570px;
+	}
+}
+
+@media (max-width: 400px) {
+	
+	.App {
+		width: calc(100vw - 20px);
+	}
+
+	.slogan {
+		font-size: 27px;
+	}
+	
+	.text {
+		font-size: 9px;
+	}
+	
+	.vector1 {
+		left: calc(50% - 110px);
+		top: 410px;
+		height: 500px;
+	}
+
+	.vector2 {
+		left: calc(50% - 260px);
+		top: 930px;
+		height: 500px;
+	}
+	
+	.vector3 {
+		left: calc(50% - 200px);
+		top: 1425px;
+		height: 570px;
+	}
+}
+
+@media (max-width: 250px) {
+	
+	.App {
+		width: calc(100vw - 20px);
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.slogan {
+		font-size: 23px;
+	}
+	
+	.text {
+		font-size: 7px;
+	}
+	
+	.vector1 {
+		left: calc(50% - 90px);
+		top: 410px;
+		height: 400px;
 	}
 
 	.vector2 {
