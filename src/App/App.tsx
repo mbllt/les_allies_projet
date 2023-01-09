@@ -12,11 +12,11 @@ function App() {
     <div className="App">
       <NavBar/>
       <Reveal/>
-			<img className='vector1' src="/assets/vec/vec1.svg" alt="vector"/>
+  		<img className='vector1' src="/assets/vec/vec1.svg" alt="vector"/>
       <NewSite/>
-			<img className='vector2' src="/assets/vec/vec2.svg" alt="vector"/>
+  		<img className='vector2' src="/assets/vec/vec2.svg" alt="vector"/>
       <Info/>
-			<img className='vector3' src="/assets/vec/vec3.svg" alt="vector"/>
+  		<img className='vector3' src="/assets/vec/vec3.svg" alt="vector"/>
       <Contact/>
     </div>
   )

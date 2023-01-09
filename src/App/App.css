@@ -18,11 +18,11 @@
 	src: url('/assets/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
 }
 
-
 .App {
 	max-width: 1540vw - 160px;
 	width: 100vw;
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 	font-family: 'NeueHaas55', sans-serif;
 	display: flex;
@@ -116,8 +116,8 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 240px);
+		left: calc(50% - 200px);
 		top: 1425px;
-		height: 600px;
+		height: 570px;
 	}
 }

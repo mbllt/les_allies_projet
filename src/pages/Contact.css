@@ -118,10 +118,12 @@
 
 	.slogan.contact {
 		font-size: 38px;
+		right: 40px !important;
 	}
 	
 	.text.contact {
 		top: -20px;
+		right: 40px !important;
 	}
 	
 	.logo_contact .les {

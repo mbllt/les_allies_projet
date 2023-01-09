@@ -8,7 +8,7 @@ function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 
 	const changeBackgroundColor = () => {
-		if (window.scrollY >= 1000) {
+		if (window.scrollY >=  window.innerHeight * 1) {
 			setReveal("Reveal");
 			setContact("Contact");
 			setNavbar(true);

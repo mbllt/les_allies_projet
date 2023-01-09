@@ -31,21 +31,18 @@
 }
 
 .logo .les {
-	/* height: 100px; */
 	position: relative;
 	font-size: 110px;
 	top: 450px;
 }
 
 .logo .allies {
-	/* height: 100px; */
 	position: relative;
 	font-size: 260px;
 	right: calc(50% - 200px);
 }
 
 .logo .com {
-	/* height: 100px; */
 	position: relative;
 	top: -360px;
 	font-family: 'NeueHaas55';
@@ -57,13 +54,17 @@
 
 @media (max-width: 1180px) {
 
+	#newsite {
+		top: -300px;
+	}
+
 	.logo {
-		top: -600px;
+		top: -320px;
 	}
 
 	.logo .les {
 		font-size: 90px;
-		top: 360px;
+		top: 380px;
 		left: 27px;
 	}
 
@@ -77,10 +78,9 @@
 	}
 
 	.text.newsite {
-		right: calc(50% - 80px);
-		top: 350px;
+		right: calc(50% - 100px);
+		top: 670px;
 	}
-
 
 	.text.newsite :first-child {
 		font-size: 24px;
@@ -90,8 +90,12 @@
 
 @media (max-width: 600px) {
 
+	#newsite {
+		top: -450px;
+	}
+
 	.logo {
-		top: -660px;
+		top: -200px;
 		left: calc(50% - 210px);
 	}
 
@@ -113,7 +117,7 @@
 
 	.text.newsite {
 		right: calc(50% - 80px);
-		top: 20px;
+		top: 490px;
 	}
 
 	.text.newsite :first-child {
