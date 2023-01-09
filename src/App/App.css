@@ -25,42 +25,99 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'NeueHaas55', sans-serif;
-	font-size: 23px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-.vector_reveal {
+.slogan {
+	position: absolute;
+	font-size: 100px;
+	z-index: 2;
+}
+
+.text {
+	position: relative;
+	text-align: left;
+	font-size: 23px;
+	margin-top: 0.5;
+	margin-bottom: 0.5;
+}
+
+.vector1 {
 	position: absolute;
 	left: calc(50% - 110px);
-	top: 840px;
+	top: 730px;
+}
+
+.vector2 {
+	position: absolute;
+	left: calc(50% - 500px);
+	top: 1650px;
+}
+
+.vector3 {
+	position: absolute;
+	left: calc(50% - 480px);
+	top: 2630px;
+	height: 1300px;
 }
 
 @media (max-width: 1180px) {
 
 	.slogan {
-		font-size: 80px !important;
+		font-size: 60px;
 	}
 
 	.text {
-		font-size: 19px !important;
+		font-size: 19px;
 	}
 
-	.vector_reveal {
-		left: calc(50% - 140px);
+	.vector1 {
+		left: calc(50% - 105px);
+		top: 570px;
+		height: 800px;
+	}
+
+	.vector2 {
+		left: calc(50% - 340px);
+		top: 1300px;
+		height: 800px;
+	}
+
+	.vector3 {
+		left: calc(50% - 310px);
+		top: 1970px;
+		height: 800px;
 	}
 }
 
-@media (max-width: 900px) {
-
+@media (max-width: 600px) {
+	
 	.slogan {
-		font-size: 40px !important;
+		font-size: 38px;
 	}
-
+	
 	.text {
-		font-size: 15px !important;
+		font-size: 15px;
+	}
+	
+	.vector1 {
+		left: calc(50% - 90px);
+		top: 410px;
+		height: 600px;
 	}
 
-	.vector_reveal {
-		left: calc(50% - 307px);
-		top: 430px;
+	.vector2 {
+		left: calc(50% - 260px);
+		top: 930px;
+		height: 600px;
+	}
+	
+	.vector3 {
+		left: calc(50% - 240px);
+		top: 1425px;
+		height: 600px;
 	}
 }

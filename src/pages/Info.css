@@ -1,50 +1,63 @@
-.info {
-	height: 100%;
-	width: 100vw;
-}
-
-.small_logo_info {
-	height: 60px;
-}
-
-.slogan_info {
+#info {
 	position: relative;
-	font-size: 6em;
-	left: calc(50% - 500px);
-	top: 35px;
-	font-weight: bold !important;
-	word-spacing: 4px;
+	padding-top: 850px;
+	/* background-color: slategrey; */
+}
+
+.slogan.info {
+	position: relative;
+	font-size: 90px;
+	font-weight: bold;
 	letter-spacing: 2px;
+	right: 50px;
 }
 
-.text_info {
-	position: relative;
-	width: 850px;
-	left: calc(50% - 380px);
-	top: -410px;
+.regular {
+	font-weight: normal;
 }
 
-.text_info {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+.business {
+	position: absolute;
+	font-family:'gotcha-regular';
+	color:#E3C0FF;
+	font-weight: normal;
+	font-size: 120px;
+	top: 70px;
+	right: -87px;
 }
 
-.text_info p {
-	font-size: 20px;
+@media (max-width: 1180px) {
+
+	#info {
+		padding-top: 290px;
+	}
+
+	.slogan.info {
+		font-size: 50px;
+	}
+
+	.business {
+		font-size: 70px;
+		top: 40px;
+		right: -55px;
+	}
 }
 
-.p1 {
-	position: relative;
-	left: -240px;
-}
+@media (max-width: 600px) {
 
-.p2 {
-	position: relative;
-	left: -90px;
-}
+	#info {
+		padding-top: 0px;
+	}
 
-.vector_info {
-	position: relative;
-	left: calc(50% + 140px);
-	top: -630px;
+	.slogan.info {
+		font-size: 30px;
+		top: -90px;
+		left: -20px;
+	}
+
+	.business {
+		font-size: 39px;
+		top: 27px;
+		right: -30px;
+	}
 }

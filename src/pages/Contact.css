@@ -1,55 +1,134 @@
 #contact {
-	height: 100%;
-	width: 100vw;
+	/* background-color: tan; */
+	position: relative;
+	top: 590px;
 }
 
-.title_contact {
+.slogan.contact {
 	position: relative;
-	font-size: 6em;
 	font-weight: bold;
-	top: -810px;
-	left: calc(50% - 180px);
+	font-size: 80px;
+	right: 140px;
+	letter-spacing: 4px;
 }
 
 .nous {
-	position: relative;
-	font-family:'gotcha-regular';
-	color:#E3C0FF;
-	font-size: 1.7em;
 	font-weight: normal;
-	top: 30px;
-	left: calc(50% - 810px);
-	z-index: 1 !important;
 }
 
-.text_contact {
+.text.contact {
 	position: relative;
-	left: calc(50% - 600px);
-	top: -750px;
-	font-size: 20px;
+	right: 140px;
+	top: -50px;
+}
+
+.logo_contact {
+	position: relative;
+	height: 300px;
+	font-family: 'gotcha-regular';
+	font-weight: normal;
+	color: white;
+	font-size: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: -70px;
+}
+
+.logo_contact .les {
+	position: absolute;
+	font-size: 3rem;
+	top: 35px;
+	right: 335px;
+}
+
+.logo_contact .allies {
+	position: relative;
+	font-size: 6rem;
+}
+
+.logo_contact .com {
+	position: absolute;
+	font-family: 'NeueHaas55';
+	word-spacing: 2px;
+	letter-spacing: 2px;
+	font-size: 0.7rem;
+	top: 173px;
+	left: 220px;
 }
 
 .link_contact {
 	position: relative;
-	font-size: 18px;
-	top: -500px;
-	width: 1300px;
-	left: calc(50% - 700px);
-	height: 70px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: flex-end;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: -130px;
 }
 
 .link_contact a {
-	position: relative;
-	width: min-content;
-	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
-.link_contact img {
-	position: relative;
+.link_logo img {
+	padding: 10px;
 	height: 50px;
-	top: 5px;
+}
+
+@media (max-width: 1180px) {
+
+	#contact {
+		top: 350px;
+	}
+
+	.slogan.contact {
+		font-size: 60px;
+		right: 60px;
+	}
+	
+	.text.contact {
+		right: 60px;
+		top: -50px;
+	}
+	
+	.logo_contact .les {
+		right: 270px;
+		font-size: 2.5rem;
+		top: 50px;
+	}
+	
+	.logo_contact .com {
+		font-size: 0.65rem;
+		font-weight: bold;
+		left: 155px;
+	}
+
+	.link_contact img {
+		height: 40px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	#contact {
+		top: 200px;
+	}
+
+	.slogan.contact {
+		font-size: 38px;
+	}
+	
+	.text.contact {
+		top: -20px;
+	}
+	
+	.logo_contact .les {
+		right: 210px;
+	}
+	
+	.logo_contact .com {
+		left: 90px;
+	}
 }

@@ -1,8 +1,7 @@
 .navbar {
 	position: fixed;
-	left: calc(50% - 100px);
 	top: 40px;
-	display:flex;
+	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-end;
@@ -31,7 +30,11 @@
 	font-size: 20px;
 }
 
-@media (max-width :660px) {
+.navbar.active {
+	left: calc(50% - 159px);
+}
+
+@media (max-width: 600px) {
 
 	.navbar img {
 		height: 2em;

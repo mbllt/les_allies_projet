@@ -4,17 +4,17 @@ import './NewSite.css';
 const NewSite = () => {
 	return (
 		<div id='newsite'>
-			<div className="text">
+			<article className='text newsite'>
 				<p>L’agence se réinvente !</p>
-				<p>En attendant de découvrir notre nouveau site internet,</p>
-				<p>découvrez notre nouvelle identité</p>
-			</div>
-			<div className="logo">
-				<img className='logo_newsite image-main' src="logo.png" alt="logo"/>
-				<img className='logo_newsite image-hover' src="logo_purple.png" alt="logo_purple"/>
-			</div>
-			<div className='vec3-4box'>
-				<img className='vector_newsite' src="vector3-4.svg" alt="vector"/>
+				<p>Trop impatients de vous<br/>
+					révéler notre nouvelle<br/>
+					identité, <span style={{fontFamily:'NeueHaas55', fontWeight:"normal"}}>notre nouveau site<br/>
+					arrive bientôt.</span></p>
+			</article>
+			<div className='logo'>
+				<p className='les'>les</p>
+				<p className='allies'>alliés</p>
+				<p className='com'>COMMUNICATION AGILE</p>
 			</div>
 		</div>
 	);

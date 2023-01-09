@@ -1,76 +1,123 @@
 #newsite {
-	height:100%;
-	width: 100vw;
-}
-
-.small_logo_newsite {
-	height: 60px;
-}
-
-.text {
+	/* background-color: blue; */
 	position: relative;
-	left: calc(50% - 40%);
-	top: 47px;
 }
 
-
-.text p {
-	position:relative;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	font-size: 20px;
-}
-
-.text :first-child {
+.text.newsite {
 	position: relative;
-	left: 257px;
+	margin-top: 0.5;
+	margin-bottom: 0.5;
+	right: calc(50% + 190px);
+	top: 220px;
 }
 
-.text :last-child {
-	color: #E3C0FF;
+.text.newsite :first-child {
+	font-size: 28px;
+	margin-bottom: 0.5px;
 }
 
-
-.vector2_newsite {
-	position: relative;
-	left: 180px;
-	bottom: 57px;
+.text.newsite :last-child {
+	font-family: 'NeueHaas75Bold';
+	font-weight: bold;
 }
 
 .logo {
 	position: relative;
-	width: 440px;
-	left: calc(50% - 220px);
-	top: 140px;
+	height: 300px;
+	font-family: 'gotcha-regular';
+	font-weight: normal;
+	color: #E3C0FF;
+	top: -360px;
 }
 
-.logo img {
-	height: 220px;
-}
-
-.logo img.image-hover {
-	position: absolute;
-	top: 0;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	object-fit: contain;
-	opacity: 0;
-	transition: opacity .2s;
-}
-
-.logo:hover img.image-hover {
-	opacity: 1;
-}
-
-.vec3-4box {
+.logo .les {
+	/* height: 100px; */
 	position: relative;
-	width: 700px;
-	left: calc(50% - 350px);
-	top: 150px;
+	font-size: 110px;
+	top: 450px;
 }
 
-.vector_newsite {
+.logo .allies {
+	/* height: 100px; */
 	position: relative;
-	right: 100px;
+	font-size: 260px;
+	right: calc(50% - 200px);
+}
+
+.logo .com {
+	/* height: 100px; */
+	position: relative;
+	top: -360px;
+	font-family: 'NeueHaas55';
+	font-weight: bold;
+	font-size: 28px;
+	word-spacing: 4px;
+	letter-spacing: 5px;
+}
+
+@media (max-width: 1180px) {
+
+	.logo {
+		top: -600px;
+	}
+
+	.logo .les {
+		font-size: 90px;
+		top: 360px;
+		left: 27px;
+	}
+
+	.logo .allies {
+		font-size: 220px;
+	}
+
+	.logo .com {
+		font-size: 25px;
+		top: -300px;
+	}
+
+	.text.newsite {
+		right: calc(50% - 80px);
+		top: 350px;
+	}
+
+
+	.text.newsite :first-child {
+		font-size: 24px;
+		margin-bottom: -10px;
+	}
+}
+
+@media (max-width: 600px) {
+
+	.logo {
+		top: -660px;
+		left: calc(50% - 210px);
+	}
+
+	.logo .les {
+		font-size: 68px;
+		top: 260px;
+		left: 80px;
+	}
+
+	.logo .allies {
+		font-size: 150px;
+	}
+
+	.logo .com {
+		font-size: 14px;
+		top: -210px;
+		left: 75px;
+	}
+
+	.text.newsite {
+		right: calc(50% - 80px);
+		top: 20px;
+	}
+
+	.text.newsite :first-child {
+		font-size: 20px;
+		margin-bottom: -10px;
+	}
 }
