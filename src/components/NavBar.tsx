@@ -6,17 +6,22 @@ function NavBar() {
 	const [reveal, setReveal] = useState("");
 	const [contact, setContact] = useState("");
 	const [navbar, setNavbar] = useState(false);
-
+	
 	const changeBackgroundColor = () => {
-		if (window.scrollY >=  window.innerHeight * 1) {
-			setReveal("Reveal");
-			setContact("Contact");
-			setNavbar(true);
-		}
-		else {
-			setNavbar(false);
-			setReveal("");
-			setContact("");
+		const newsite = document.getElementById("newsite");
+
+		if (newsite) {
+			console.log(newsite.offsetTop, window.scrollY);
+			if (window.scrollY >=  newsite.offsetTop) {
+				setReveal("Reveal");
+				setContact("Contact");
+				setNavbar(true);
+			}
+			else {
+				setNavbar(false);
+				setReveal("");
+				setContact("");
+			}
 		}
 	}
 
