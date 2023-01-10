@@ -1,89 +1,181 @@
 #reveal {
-	/* background-color: blueviolet; */
+	/* background-color: blue; */
 	position: relative;
-	padding-top: 200px;
-	padding-bottom: 700px;
-	left: -210px;
-}
-
-.slogan.reveal {
-	text-align: left;
-	letter-spacing: 3px;
-}
-
-#communication {
-	font-weight: bold;
-}
-
-#agile {
-	position: absolute;
-	font-family:'gotcha-regular';
-	color:#E3C0FF;
-	font-size: 160px;
-	top: 345px;
-	left: 650px;
-	z-index: 1;
 }
 
 .text.reveal {
-	top: 510px;
-	left: 0px;
+	position: relative;
+	margin-top: 0.5;
+	margin-bottom: 0.5;
+	right: calc(50% + 190px);
+	top: 220px;
 }
 
-#allies {
-	color:#E3C0FF;
+.text.reveal :first-child {
+	font-size: 28px;
+	margin-bottom: 0.5px;
+}
+
+.text.reveal :last-child {
+	font-family: 'NeueHaas75Bold';
 	font-weight: bold;
+}
+
+.logo {
+	position: relative;
+	height: 300px;
+	font-family: 'gotcha-regular';
+	font-weight: normal;
+	color: #E3C0FF;
+	top: -360px;
+}
+
+.logo .les {
+	position: relative;
+	font-size: 110px;
+	top: 450px;
+}
+
+.logo .allies {
+	position: relative;
+	font-size: 260px;
+	right: calc(50% - 200px);
+
+	transition: all 2s ease;
+    transition-property: color;
+    -webkit-transition: all 2s ease;
+    -webkit-transition-property:  color;
+
+}
+
+.logo .com {
+	position: relative;
+	top: -360px;
+	font-family: 'NeueHaas55';
+	font-weight: bold;
+	font-size: 28px;
+	word-spacing: 4px;
+	letter-spacing: 5px;
 }
 
 @media (max-width: 1180px) {
 
-	#reveal {
-		padding-top: 250px;
-		left: -100px;
-	}
-	
-	#agile {
-		font-size: 100px;
-		top: 330px;
-		left: 405px;
+	#reveal
+ {
+		top: -300px;
 	}
 
-	.text.reveal {
-		top: 270px;
+	.logo {
+		top: -320px;
+	}
+
+	.logo .les {
+		font-size: 90px;
+		top: 380px;
+		left: 27px;
+	}
+
+	.logo .allies {
+		font-size: 220px;
+	}
+
+	.logo .com {
+		font-size: 25px;
+		top: -300px;
+	}
+
+	.text.reveal
+ {
+		right: calc(50% - 100px);
+		top: 670px;
+	}
+
+	.text.reveal
+ :first-child {
+		font-size: 24px;
+		margin-bottom: -10px;
 	}
 }
 
 @media (max-width: 600px) {
-	
-	#reveal {
-		padding-top: 250px;
-		left: -20px;
+
+	#reveal
+ {
+		top: -400px;
 	}
 
-	#agile {
-		font-size: 60px;
-		top: 310px;
-		left: 270px;
+	.logo {
+		top: -180px;
+		left: calc(50% - 210px);
 	}
 
-	.text.reveal {
-		top: 250px;
+	.logo .les {
+		font-size: 68px;
+		top: 260px;
+		left: 80px;
+	}
+
+	.logo .allies {
+		font-size: 150px;
+	}
+
+	.logo .com {
+		font-size: 14px;
+		top: -210px;
+		left: 75px;
+	}
+
+	.text.reveal
+ {
+		right: calc(50% - 80px);
+		top: 460px;
+	}
+
+	.text.reveal
+ :first-child {
+		font-size: 20px;
+		margin-bottom: -10px;
 	}
 }
 
 @media (max-width: 400px) {
-	
-	#reveal {
-		padding-top: 300px;
+
+	#reveal
+ {
+		top: -500px;
 	}
 
-	#agile {
-		font-size: 40px;
-		top: 350px;
-		left: calc(50% + 60px);
+	.logo {
+		top: -40px;
+		left: calc(50% - 210px);
 	}
 
-	.text.reveal {
-		top: 150px;
+	.logo .les {
+		font-size: 50px;
+		top: 170px;
+		left: 125px;
+	}
+
+	.logo .allies {
+		font-size: 100px;
+	}
+
+	.logo .com {
+		font-size: 11px;
+		top: -135px;
+		left: 115px;
+		letter-spacing: 2px;
+	}
+
+	.text.reveal
+ {
+		right: calc(50% - 80px);
+		top: 460px;
+	}
+
+	.text.reveal
+ :first-child {
+		font-size: 12px;
+		margin-bottom: -4px;
 	}
 }

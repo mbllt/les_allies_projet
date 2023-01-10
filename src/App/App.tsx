@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import NavBar from '../components/NavBar';
-import Reveal from '../pages/Reveal';
-import NewSite from '../pages/NewSite';
+import Reveal from '../pages//Reveal';
+import Accueil from '../pages/Accueil';
 import Info from '../pages/Info';
 import Contact from '../pages/Contact';
 
@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      <Reveal/>
+      <Accueil/>
   		<img className='vector1' src="/assets/vec/vec1.svg" alt="vector"/>
-      <NewSite/>
+      <Reveal/>
   		<img className='vector2' src="/assets/vec/vec2.svg" alt="vector"/>
       <Info/>
       <picture>

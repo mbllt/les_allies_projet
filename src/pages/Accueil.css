@@ -1,0 +1,89 @@
+#accueil {
+	/* background-color: blueviolet; */
+	position: relative;
+	padding-top: 200px;
+	padding-bottom: 700px;
+	left: -210px;
+}
+
+.slogan.accueil {
+	text-align: left;
+	letter-spacing: 3px;
+}
+
+#communication {
+	font-weight: bold;
+}
+
+#agile {
+	position: absolute;
+	font-family:'gotcha-regular';
+	color:#E3C0FF;
+	font-size: 160px;
+	top: 345px;
+	left: 650px;
+	z-index: 1;
+}
+
+.text.accueil {
+	top: 510px;
+	left: 0px;
+}
+
+#allies {
+	color:#E3C0FF;
+	font-weight: bold;
+}
+
+@media (max-width: 1180px) {
+
+	#accueil {
+		padding-top: 250px;
+		left: -100px;
+	}
+	
+	#agile {
+		font-size: 100px;
+		top: 330px;
+		left: 405px;
+	}
+
+	.text.accueil {
+		top: 270px;
+	}
+}
+
+@media (max-width: 600px) {
+	
+	#accueil {
+		padding-top: 250px;
+		left: -20px;
+	}
+
+	#agile {
+		font-size: 60px;
+		top: 310px;
+		left: 270px;
+	}
+
+	.text.accueil {
+		top: 250px;
+	}
+}
+
+@media (max-width: 400px) {
+	
+	#accueil {
+		padding-top: 300px;
+	}
+
+	#agile {
+		font-size: 40px;
+		top: 350px;
+		left: calc(50% + 60px);
+	}
+
+	.text.accueil {
+		top: 150px;
+	}
+}
