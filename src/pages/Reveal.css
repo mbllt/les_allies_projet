@@ -53,10 +53,15 @@
 	letter-spacing: 5px;
 }
 
+@media (max-width: 1300px) {
+	.text.reveal {
+		right: calc(50% + 80px);
+	}
+}
+
 @media (max-width: 1180px) {
 
-	#reveal
- {
+	#reveal {
 		top: -300px;
 	}
 
@@ -79,14 +84,12 @@
 		top: -300px;
 	}
 
-	.text.reveal
- {
+	.text.reveal {
 		right: calc(50% - 100px);
 		top: 670px;
 	}
 
-	.text.reveal
- :first-child {
+	.text.reveal :first-child {
 		font-size: 24px;
 		margin-bottom: -10px;
 	}
@@ -94,8 +97,7 @@
 
 @media (max-width: 600px) {
 
-	#reveal
- {
+	#reveal {
 		top: -400px;
 	}
 
@@ -120,14 +122,12 @@
 		left: 75px;
 	}
 
-	.text.reveal
- {
+	.text.reveal {
 		right: calc(50% - 80px);
 		top: 460px;
 	}
 
-	.text.reveal
- :first-child {
+	.text.reveal :first-child {
 		font-size: 20px;
 		margin-bottom: -10px;
 	}
@@ -135,13 +135,12 @@
 
 @media (max-width: 400px) {
 
-	#reveal
- {
+	#reveal {
 		top: -500px;
 	}
 
 	.logo {
-		top: -40px;
+		top: -50px;
 		left: calc(50% - 210px);
 	}
 
@@ -162,14 +161,12 @@
 		letter-spacing: 2px;
 	}
 
-	.text.reveal
- {
+	.text.reveal {
 		right: calc(50% - 80px);
 		top: 460px;
 	}
 
-	.text.reveal
- :first-child {
+	.text.reveal :first-child {
 		font-size: 12px;
 		margin-bottom: -4px;
 	}

@@ -1,7 +1,7 @@
 #contact {
 	/* background-color: tan; */
 	position: relative;
-	top: 590px;
+	top: 670px;
 }
 
 .slogan.contact {
@@ -80,7 +80,7 @@
 @media (max-width: 1180px) {
 
 	#contact {
-		top: 350px;
+		top: 600px;
 	}
 
 	.slogan.contact {
@@ -113,7 +113,7 @@
 @media (max-width: 600px) {
 
 	#contact {
-		top: 270px;
+		top: 400px;
 	}
 
 	.slogan.contact {
@@ -145,12 +145,6 @@
 	}
 }
 
-@media (max-width: 500px) {
-	#contact {
-		top: 400px;
-	}
-}
-
 @media (max-width: 400px) {
 
 	#contact {
@@ -177,5 +171,12 @@
 
 	.link_contact {
 		padding-top: 50px;
+	}
+}
+
+@media (max-width: 250px) {
+	#contact {
+		top: 250px;
+		right: calc(50% - 130px);
 	}
 }

@@ -59,8 +59,8 @@
 
 .vector3 {
 	position: absolute;
-	left: calc(50% - 470px);
-	top: 2670px;
+	left: calc(50% - 490px);
+	top: 2830px;
 	height: 1200px;
 }
 
@@ -87,9 +87,9 @@
 	}
 
 	.vector3 {
-		left: calc(50% - 310px);
-		top: 1970px;
-		height: 800px;
+		left: calc(50% - 350px);
+		top: 2100px;
+		height: 1000px;
 	}
 }
 
@@ -122,17 +122,9 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 180px);
+		left: calc(50% - 200px);
 		top: 1660px;
-		height: 570px;
-	}
-}
-
-@media (max-width:500px) {
-	.vector3 {
-		left: calc(50% - 180px);
-		top: 1760px;
-		height: 700px;
+		height: 800px;
 	}
 }
 
@@ -163,7 +155,7 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 160px);
+		left: calc(50% - 130px);
 		top: 1530px;
 		height: 600px;
 	}
@@ -199,7 +191,7 @@
 	
 	.vector3 {
 		left: calc(50% - 100px);
-		top: 1550px;
+		top: 1450px;
 		height: 570px;
 	}
 }

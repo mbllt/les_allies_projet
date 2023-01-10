@@ -29,7 +29,7 @@
 @media (max-width: 1180px) {
 
 	#info {
-		padding-top: 290px;
+		padding-top: 300px;
 	}
 
 	.slogan.info {
@@ -46,7 +46,7 @@
 @media (max-width: 600px) {
 
 	#info {
-		padding-top: 150px;
+		padding-top: 100px;
 	}
 
 	.slogan.info {
@@ -70,7 +70,7 @@
 
 	.slogan.info {
 		font-size: 23px;
-		top: -110px;
+		top: -120px;
 		left: calc(50% - 120px);
 	}
 
