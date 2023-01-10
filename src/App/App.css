@@ -59,9 +59,9 @@
 
 .vector3 {
 	position: absolute;
-	left: calc(50% - 480px);
-	top: 2630px;
-	height: 1300px;
+	left: calc(50% - 470px);
+	top: 2670px;
+	height: 1200px;
 }
 
 @media (max-width: 1180px) {
@@ -122,9 +122,17 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 200px);
-		top: 1680px;
+		left: calc(50% - 180px);
+		top: 1660px;
 		height: 570px;
+	}
+}
+
+@media (max-width:500px) {
+	.vector3 {
+		left: calc(50% - 180px);
+		top: 1760px;
+		height: 700px;
 	}
 }
 
@@ -155,8 +163,8 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 170px);
-		top: 1430px;
+		left: calc(50% - 160px);
+		top: 1530px;
 		height: 600px;
 	}
 }
@@ -179,19 +187,19 @@
 	
 	.vector1 {
 		left: calc(50% - 90px);
-		top: 410px;
+		top: 490px;
 		height: 400px;
 	}
 
 	.vector2 {
-		left: calc(50% - 260px);
+		left: calc(50% - 160px);
 		top: 930px;
-		height: 600px;
+		height: 450px;
 	}
 	
 	.vector3 {
-		left: calc(50% - 200px);
-		top: 1425px;
+		left: calc(50% - 100px);
+		top: 1550px;
 		height: 570px;
 	}
 }

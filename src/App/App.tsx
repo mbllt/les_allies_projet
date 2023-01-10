@@ -17,7 +17,7 @@ function App() {
   		<img className='vector2' src="/assets/vec/vec2.svg" alt="vector"/>
       <Info/>
       <picture>
-          <source srcSet="/assets/vec/vec3-300.svg" media="(max-width: 400px)"/>
+          <source srcSet="/assets/vec/newbisvec3-300.svg" media="(max-width: 500px)"/>
           <img className='vector3' src="/assets/vec/vec3.svg" alt="vector"/>
       </picture>
 

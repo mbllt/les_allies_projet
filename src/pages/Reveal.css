@@ -16,11 +16,6 @@
 	margin-bottom: 0.5px;
 }
 
-.text.reveal :last-child {
-	font-family: 'NeueHaas75Bold';
-	font-weight: bold;
-}
-
 .logo {
 	position: relative;
 	height: 300px;
@@ -28,7 +23,13 @@
 	font-weight: normal;
 	color: #E3C0FF;
 	top: -360px;
+	transition: color 0.8s;
 }
+
+.logo:hover, .logo:focus {
+	color: #9900FF;
+}
+
 
 .logo .les {
 	position: relative;
@@ -40,12 +41,6 @@
 	position: relative;
 	font-size: 260px;
 	right: calc(50% - 200px);
-
-	transition: all 2s ease;
-    transition-property: color;
-    -webkit-transition: all 2s ease;
-    -webkit-transition-property:  color;
-
 }
 
 .logo .com {

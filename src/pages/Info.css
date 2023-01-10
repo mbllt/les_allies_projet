@@ -21,9 +21,9 @@
 	font-family:'gotcha-regular';
 	color:#E3C0FF;
 	font-weight: normal;
-	font-size: 120px;
+	font-size: 130px;
 	top: 70px;
-	right: -87px;
+	right: -110px;
 }
 
 @media (max-width: 1180px) {
@@ -75,8 +75,15 @@
 	}
 
 	.business {
-		font-size: 35px;
-		top: 75px;
-		left: 0px;
+		font-size: 38px;
+		top: 50px;
+		left: 100px;
+	}
+}
+
+@media (max-width: 200px) {
+
+	.business {
+		top: 80px;
 	}
 }

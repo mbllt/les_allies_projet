@@ -5,8 +5,10 @@ const Contact = () => {
 	return (
 		<div id='contact'>
 			<p className='slogan contact'>Contactez-<span className='nous'>nous</span></p>
-			<p className='text contact'>Basée en région lyonnaise, nous serions ravies de vous<br/>
-			<strong>accompagnez</strong> ou simplement de <strong>répondre à vos<br/>questions.</strong></p>
+			<p className='text contact'>Basée en région lyonnais et agiles<br/>
+				dans toute la France, nous serions ravies<br/>
+				de <strong>vous accompagnez</strong> ou simplement<br/>
+				de <strong>répondre à vos questions.</strong></p>
 
 			<div className='logo_contact'>
 				<p className='les'>les</p>
@@ -15,7 +17,7 @@ const Contact = () => {
 			</div>
 
 			<div className='link_contact'>
-				<a className='mail_contact'>noemie@lesalliésdelacom.com</a>
+				<a className='mail_contact'>noemie@lesalliesdelacom.com</a>
 				<a className='phone_contact'>06.32.95.14.76</a>
 				<div className='link_logo'>
 					<img src="/assets/social_media/insta_logo.png"></img>

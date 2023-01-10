@@ -10,16 +10,18 @@ function NavBar() {
 	const changeBackgroundColor = () => {
 	const newsite = document.getElementById("newsite");
 
-	if (newsite && window.scrollY >=  newsite.offsetTop - 300) {
-		setReveal("Reveal");
-		setContact("Contact");
-		setNavbar(true);
-	}
-	else {
-		setNavbar(false);
-		setReveal("");
-		setContact("");
-	}
+		if (newsite) {
+			if (window.scrollY >=  newsite.offsetTop) {
+				setReveal("Reveal");
+				setContact("Contact");
+				setNavbar(true);
+			}
+			else {
+				setNavbar(false);
+				setReveal("");
+				setContact("");
+			}
+		}
 }
 
 	window.addEventListener("scroll", changeBackgroundColor);
