@@ -40,6 +40,12 @@
 	position: relative;
 	font-size: 260px;
 	right: calc(50% - 200px);
+
+	transition: all 2s ease;
+    transition-property: color;
+    -webkit-transition: all 2s ease;
+    -webkit-transition-property:  color;
+
 }
 
 .logo .com {
