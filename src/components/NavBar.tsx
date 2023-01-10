@@ -8,22 +8,19 @@ function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 	
 	const changeBackgroundColor = () => {
-		const newsite = document.getElementById("newsite");
+	const newsite = document.getElementById("newsite");
 
-		if (newsite) {
-			console.log(newsite.offsetTop, window.scrollY);
-			if (window.scrollY >=  newsite.offsetTop) {
-				setReveal("Reveal");
-				setContact("Contact");
-				setNavbar(true);
-			}
-			else {
-				setNavbar(false);
-				setReveal("");
-				setContact("");
-			}
-		}
+	if (newsite && window.scrollY >=  newsite.offsetTop - 300) {
+		setReveal("Reveal");
+		setContact("Contact");
+		setNavbar(true);
 	}
+	else {
+		setNavbar(false);
+		setReveal("");
+		setContact("");
+	}
+}
 
 	window.addEventListener("scroll", changeBackgroundColor);
 
