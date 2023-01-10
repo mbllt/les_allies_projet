@@ -8,8 +8,8 @@ const Reveal = () => {
 			<article className='text reveal'>
 				<p>L’agence se réinvente !</p>
 				<p>Trop impatients de vous<br/>
-					révéler <span style={{fontFamily:'NeueHaas75Bold', fontWeight:"bold"}}>notre nouvelle</span><br/>
-					identité, notre nouveau site<br/>
+					révéler notre <span style={{fontFamily:'NeueHaas75Bold', fontWeight:"bold"}}>nouvelle<br/>
+					identité</span>, notre nouveau site<br/>
 					arrive bientôt.</p>
 			</article>
 			<div className='logo'>

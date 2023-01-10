@@ -5,9 +5,9 @@ const Contact = () => {
 	return (
 		<div id='contact'>
 			<p className='slogan contact'>Contactez-<span className='nous'>nous</span></p>
-			<p className='text contact'>Basée en région lyonnais et agiles<br/>
-				dans toute la France, nous serions ravies<br/>
-				de <strong>vous accompagnez</strong> ou simplement<br/>
+			<p className='text contact'>Basés en région lyonnaise et agiles<br/>
+				dans toute la France, nous serions ravis<br/>
+				de <strong>vous accompagner</strong> ou simplement<br/>
 				de <strong>répondre à vos questions.</strong></p>
 
 			<div className='logo_contact'>
