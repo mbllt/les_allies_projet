@@ -8,7 +8,7 @@ function NavBar() {
 	const [navbar, setNavbar] = useState(false);
 	
 	const changeBackgroundColor = () => {
-	const newsite = document.getElementById("newsite");
+		const newsite = document.getElementById("reveal");
 
 		if (newsite) {
 			if (window.scrollY >=  newsite.offsetTop) {
@@ -22,13 +22,13 @@ function NavBar() {
 				setContact("");
 			}
 		}
-}
+	}
 
 	window.addEventListener("scroll", changeBackgroundColor);
 
 	return (
 		<div className={navbar ? 'navbar active' : 'navbar'}>
-			<a href='#newsite'>{reveal}</a>
+			<a href='#reveal'>{reveal}</a>
 			<img className='small_logo_newsite' src="/assets/logo/small_logo.png" alt="small_logo_la"/>
 			<a href='#contact'>{contact}</a>
 		</div>
