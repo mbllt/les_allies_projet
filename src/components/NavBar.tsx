@@ -28,9 +28,11 @@ function NavBar() {
 
 	return (
 		<div className={navbar ? 'navbar active' : 'navbar'}>
-			<a href='#reveal'>{reveal}</a>
-			<img className='small_logo_newsite' src="/assets/logo/small_logo.png" alt="small_logo_la"/>
-			<a href='#contact'>{contact}</a>
+			<div className='content_navbar'>
+				<a href='#reveal'>{reveal}</a>
+				<img className='small_logo_newsite' src="/assets/logo/small_logo.png" alt="small_logo_la"/>
+				<a href='#contact'>{contact}</a>
+			</div>
 		</div>
 	);
 };

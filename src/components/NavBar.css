@@ -1,11 +1,15 @@
 .navbar {
 	position: fixed;
-	top: 40px;
+	width: 100vw;
+	background-color: black;
+	top: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-end;
-	z-index: 1;
+	z-index: 10;
 }
 
 .navbar a {
@@ -13,10 +17,13 @@
 	top: -5px;
 	text-decoration: none;
 	color: white;
-	padding-left: 40px;
-	padding-right: 40px;
 	font-size: 20px;
 	letter-spacing: 1px;
+}
+
+.content_navbar a {
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .navbar img {
@@ -24,7 +31,7 @@
 }
 
 .navbar.active {
-	left: calc(50% - 163px);
+	left: 14px;
 }
 
 @media (max-width: 600px) {
@@ -35,11 +42,10 @@
 
 	.navbar a {
 		font-size: 17px;
-		top: 0px;
 	}
 
 	.navbar.active {
-		left: calc(50% - 151px);
+		left: 5.3px;
 	}
 	
 }
@@ -47,33 +53,27 @@
 @media (max-width: 400px) {
 	
 	.navbar a {
-		font-size: 15px !important;
+		font-size: 15px;
+		top: -5px;
 	}
 
-	.navbar a {
-		top: -2px;
-	}
-	
 	.navbar.active {
-		left: calc(50% - 145px);
+		left: 4.6px;
 	}
 	
 }
 
-@media (max-width: 300px) {
+@media (max-width: 315px) {
 	
 	.navbar a {
-		font-size: 12px !important;
+		font-size: 12px;
 		padding-left: 20px;
 		padding-right: 20px;
-	}
-
-	.navbar a {
 		top: -3px;
 	}
 	
 	.navbar.active {
-		left: calc(50% - 96px);
+		left: 4px;
 	}
 
 }
