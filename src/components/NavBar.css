@@ -36,12 +36,18 @@
 
 @media (max-width: 600px) {
 
+	.navbar {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	
 	.navbar img {
 		height: 2.5em;
 	}
 
 	.navbar a {
 		font-size: 17px;
+		top: -8px;
 	}
 
 	.navbar.active {
@@ -51,10 +57,15 @@
 }
 
 @media (max-width: 400px) {
-	
+
+	.navbar {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
 	.navbar a {
 		font-size: 15px;
-		top: -5px;
+		top: -8px;
 	}
 
 	.navbar.active {
@@ -64,16 +75,33 @@
 }
 
 @media (max-width: 315px) {
-	
+
+	.navbar {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
 	.navbar a {
 		font-size: 12px;
 		padding-left: 20px;
 		padding-right: 20px;
-		top: -3px;
+		top: -10px;
 	}
 	
 	.navbar.active {
 		left: 4px;
+	}
+	
+}
+
+@media (max-width: 280px) {
+	
+	.navbar img {
+		height: 1.8em;
+	}
+
+	.navbar a {
+		top: -5px;
 	}
 
 }

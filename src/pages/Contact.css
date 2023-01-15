@@ -39,7 +39,7 @@
 	position: absolute;
 	font-size: 3rem;
 	top: 35px;
-	right: 335px;
+	right: 322px;
 }
 
 .logo_contact .allies {
@@ -54,7 +54,7 @@
 	letter-spacing: 2px;
 	font-size: 0.7rem;
 	top: 173px;
-	left: 220px;
+	left: 205px;
 }
 
 .link_contact {
@@ -93,7 +93,7 @@
 	}
 	
 	.logo_contact .les {
-		right: 270px;
+		right: 258px;
 		font-size: 2.5rem;
 		top: 50px;
 	}
@@ -101,7 +101,7 @@
 	.logo_contact .com {
 		font-size: 0.65rem;
 		font-weight: bold;
-		left: 155px;
+		left: 140px;
 	}
 
 	.link_contact img {
@@ -131,12 +131,12 @@
 	
 	.logo_contact .les {
 		top: 100px;
-		right: 210px;
+		right: 180px;
 	}
 	
 	.logo_contact .com {
 		top: 220px;
-		left: 90px;
+		left: 65px;
 	}
 
 	.link_contact {
@@ -147,7 +147,7 @@
 @media (max-width: 400px) {
 
 	#contact {
-		top: 360px;
+		top: 200px;
 	}
 
 	.slogan.contact {
@@ -160,17 +160,25 @@
 	
 	.logo_contact .les {
 		top: 100px;
-		right: 155px;
+		right: 145px;
 	}
 	
 	.logo_contact .com {
 		top: 222px;
-		left: 40px;
+		left: 27px;
 	}
 
 	.link_contact {
 		padding-top: 50px;
 	}
+}
+
+@media (max-width: 300px) {
+
+	#contact {
+		top: 250px;
+	}
+
 }
 
 @media (max-width: 250px) {

@@ -55,13 +55,14 @@
 @media (max-width: 600px) {
 	
 	#accueil {
-		padding-top: 250px;
-		left: -20px;
+		padding-top: 200px;
+		margin-bottom: 100px;
+		left: -15px;
 	}
 
 	#agile {
 		font-size: 60px;
-		top: 310px;
+		top: 260px;
 		left: 270px;
 	}
 
@@ -71,14 +72,59 @@
 }
 
 @media (max-width: 400px) {
-	
+
 	#accueil {
-		padding-top: 300px;
+		left: -10px;
 	}
 
 	#agile {
 		font-size: 40px;
-		top: 350px;
+		top: 270px;
+		left: calc(50% + 90px);
+	}
+
+	.text.accueil {
+		top: 180px;
+	}
+}
+
+@media (max-width: 340px) {
+
+	#accueil {
+		left: 5px;
+	}
+
+	#agile {
+		font-size: 40px;
+		top: 290px;
+		left: calc(50% + 60px);
+	}
+}
+
+@media (max-width: 300px) {
+
+	#accueil {
+		left: -10px;
+	}
+
+	#agile {
+		font-size: 35px;
+		top: 265px;
+		left: calc(50% + 65px);
+	}
+}
+
+@media (max-width: 280px) {
+
+	#accueil {
+		padding-top: 50px;
+		margin-bottom: 100px;
+		left: -20px;
+	}
+
+	#agile {
+		font-size: 40px;
+		top: 100px;
 		left: calc(50% + 60px);
 	}
 

@@ -136,6 +136,39 @@
 	}
 
 	.slogan {
+		font-size: 33px;
+	}
+	
+	.text {
+		font-size: 13px;
+	}
+	
+	.vector1 {
+		left: calc(50% - 110px);
+		top: 470px;
+		height: 500px;
+	}
+
+	.vector2 {
+		left: calc(50% - 180px);
+		top: 930px;
+		height: 500px;
+	}
+	
+	.vector3 {
+		left: calc(50% - 130px);
+		top: 1440px;
+		height: 600px;
+	}
+}
+
+@media (max-width: 300px) {
+	
+	.App {
+		width: calc(100vw - 20px);
+	}
+
+	.slogan {
 		font-size: 27px;
 	}
 	
@@ -162,7 +195,7 @@
 	}
 }
 
-@media (max-width: 250px) {
+@media (max-width: 280px) {
 	
 	.App {
 		width: calc(100vw - 20px);
@@ -179,15 +212,15 @@
 	}
 	
 	.vector1 {
-		left: calc(50% - 90px);
-		top: 490px;
-		height: 400px;
+		left: calc(50% - 40px);
+		top: 250px;
+		height: 300px;
 	}
 
 	.vector2 {
-		left: calc(50% - 160px);
-		top: 930px;
-		height: 450px;
+		left: calc(50% - 80px);
+		top: 530px;
+		height: 300px;
 	}
 	
 	.vector3 {

@@ -66,7 +66,7 @@
 	}
 
 	.logo {
-		top: -320px;
+		top: -300px;
 	}
 
 	.logo .les {
@@ -102,7 +102,7 @@
 	}
 
 	.logo {
-		top: -180px;
+		top: -225px;
 		left: calc(50% - 210px);
 	}
 
@@ -140,7 +140,7 @@
 	}
 
 	.logo {
-		top: -50px;
+		top: -100px;
 		left: calc(50% - 210px);
 	}
 
@@ -162,8 +162,47 @@
 	}
 
 	.text.reveal {
-		right: calc(50% - 80px);
-		top: 460px;
+		right: calc(50% - 60px);
+		top: 420px;
+	}
+
+	.text.reveal :first-child {
+		font-size: 12px;
+		margin-bottom: -4px;
+	}
+}
+
+@media (max-width: 300px) {
+
+	#reveal {
+		top: -500px;
+	}
+
+	.logo {
+		top: 0px;
+		left: calc(50% - 205px);
+	}
+
+	.logo .les {
+		font-size: 38px;
+		top: 140px;
+		left: 138px;
+	}
+
+	.logo .allies {
+		font-size: 80px;
+	}
+
+	.logo .com {
+		font-size: 8px;
+		top: -110px;
+		left: 135px;
+		letter-spacing: 2px;
+	}
+
+	.text.reveal {
+		right: calc(50% - 60px);
+		top: 440px;
 	}
 
 	.text.reveal :first-child {
