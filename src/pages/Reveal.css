@@ -210,3 +210,14 @@
 		margin-bottom: -4px;
 	}
 }
+
+@media (max-width: 280px) {
+	.logo {
+		top: -190px;
+		left: calc(50% - 205px);
+	}
+	.text.reveal {
+		right: calc(50% - 60px);
+		top: 190px;
+	}
+}

@@ -54,7 +54,7 @@
 
 .vector2 {
 	position: absolute;
-	left: calc(50% - 500px);
+	left: calc(50% - 400px);
 	top: 1650px;
 }
 
@@ -82,7 +82,7 @@
 	}
 
 	.vector2 {
-		left: calc(50% - 340px);
+		left: calc(50% - 240px);
 		top: 1300px;
 		height: 800px;
 	}
@@ -117,7 +117,7 @@
 	}
 
 	.vector2 {
-		left: calc(50% - 260px);
+		left: calc(50% - 170px);
 		top: 1060px;
 		height: 600px;
 	}
@@ -150,7 +150,7 @@
 	}
 
 	.vector2 {
-		left: calc(50% - 180px);
+		left: calc(50% - 140px);
 		top: 930px;
 		height: 500px;
 	}
@@ -183,7 +183,7 @@
 	}
 
 	.vector2 {
-		left: calc(50% - 180px);
+		left: calc(50% - 160px);
 		top: 930px;
 		height: 500px;
 	}
@@ -204,7 +204,7 @@
 	}
 
 	.slogan {
-		font-size: 23px;
+		font-size: 20px;
 	}
 	
 	.text {
@@ -225,7 +225,7 @@
 	
 	.vector3 {
 		left: calc(50% - 100px);
-		top: 1450px;
-		height: 570px;
+		top: 880px;
+		height: 400px;
 	}
 }

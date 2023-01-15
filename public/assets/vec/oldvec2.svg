@@ -2,15 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="210mm"
+   width="173mm"
    height="297mm"
-   viewBox="0 0 210 297"
+   viewBox="0 0 173 297"
    version="1.1"
    id="svg5"
    xml:space="preserve"
-   inkscape:export-filename="newvec2.svg"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -28,10 +25,12 @@
      id="defs2" /><g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1"><path
-       d="M 127.74592,35.015278 C 165.57055,67.839446 167.1691,90.445486 140.90206,105.79132 5.1623331,194.86431 26.807913,225.1184 40.301653,247.60799"
-       stroke="#ffffff"
-       stroke-width="3"
-       id="path172"
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="ccc" /></g></svg>
+     id="layer1"><g
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+       id="g181"
+       transform="matrix(0.26458333,0,0,0.26458333,41.26196,33.650748)"><path
+         d="M 372.498,1 C 526.997,223.5 519.499,204.5 420.222,262.5 -98.0701,565.296 -8.99997,719.5 42,804.5"
+         stroke="#ffffff"
+         stroke-width="3"
+         id="path172"
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3;stroke-dasharray:none;stroke-opacity:1" /></g></g></svg>

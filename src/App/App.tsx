@@ -18,7 +18,6 @@ function App() {
       <Info/>
           <source srcSet="/assets/vec/vec3.svg" media="(max-width: 500px)"/>
         <img className='vector3' src="/assets/vec/vec3.svg" alt="vector"/>
-
       <Contact/>
     </div>
   )

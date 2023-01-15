@@ -130,14 +130,21 @@
 		padding-top: 50px;
 	}
 	
+	.logo_contact .allies {
+		font-size: 70px;
+	}
+	
 	.logo_contact .les {
-		top: 100px;
-		right: 180px;
+		font-size: 35px;
+		top: 113px;
+		right: 168px;
 	}
 	
 	.logo_contact .com {
+		font-size: 7px;
 		top: 220px;
-		left: 65px;
+		left: 85px;
+		word-spacing: 1px;
 	}
 
 	.link_contact {
@@ -156,17 +163,24 @@
 	}
 
 	.logo_contact {
-		left: -10px;
+		left: 10px;
+	}
+	
+	.logo_contact .allies {
+		font-size: 50px;
 	}
 	
 	.logo_contact .les {
-		top: 100px;
-		right: 145px;
+		font-size: 24px;
+		top: 139px;
+		right: 125px;
 	}
 	
 	.logo_contact .com {
-		top: 222px;
-		left: 27px;
+		font-size: 4px;
+		top: 213px;
+		left: 65px;
+		word-spacing: 0.5;
 	}
 
 	.link_contact {
@@ -182,9 +196,25 @@
 
 }
 
-@media (max-width: 250px) {
+@media (max-width: 280px) {
 	#contact {
-		top: 250px;
-		right: calc(50% - 130px);
+		top: -240px;
+	}
+	
+	.slogan.contact {
+		left: 10px;
+	}
+	
+	.text.contact {
+		left: 10px;
+	}
+
+	.link_contact {
+		left: 10px;
+		font-size: 12px;
+	}
+
+	.link_contact img {
+		height: 2.5em;
 	}
 }
