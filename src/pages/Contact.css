@@ -114,6 +114,8 @@
 
 	#contact {
 		top: 400px;
+		/* left: 2px; */
+		text-align: center;
 	}
 
 	.slogan.contact {
@@ -128,6 +130,7 @@
 
 	.logo_contact {
 		padding-top: 50px;
+		left: 10px;
 	}
 	
 	.logo_contact .allies {
@@ -146,9 +149,10 @@
 		left: 85px;
 		word-spacing: 1px;
 	}
-
+	
 	.link_contact {
 		padding-top: 50px;
+		left: 10px;
 	}
 }
 
