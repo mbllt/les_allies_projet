@@ -86,7 +86,7 @@
 
 	.vector1 {
 		left: calc(50% - 105px);
-		top: 570px;
+		top: 540px;
 		height: 800px;
 	}
 
@@ -121,7 +121,7 @@
 	
 	.vector1 {
 		left: calc(50% - 90px);
-		top: 520px;
+		top: 480px;
 		height: 600px;
 	}
 
@@ -154,19 +154,19 @@
 	
 	.vector1 {
 		left: calc(50% - 110px);
-		top: 470px;
+		top: 400px;
 		height: 500px;
 	}
 
 	.vector2 {
 		left: calc(50% - 140px);
-		top: 930px;
+		top: 860px;
 		height: 500px;
 	}
 	
 	.vector3 {
 		left: calc(50% - 130px);
-		top: 1380px;
+		top: 1300px;
 		height: 600px;
 	}
 }
@@ -187,19 +187,19 @@
 	
 	.vector1 {
 		left: calc(50% - 110px);
-		top: 470px;
+		top: 380px;
 		height: 500px;
 	}
 
 	.vector2 {
 		left: calc(50% - 160px);
-		top: 930px;
+		top: 830px;
 		height: 500px;
 	}
 	
 	.vector3 {
 		left: calc(50% - 130px);
-		top: 1430px;
+		top: 1280px;
 		height: 600px;
 	}
 }
@@ -222,7 +222,7 @@
 	
 	.vector1 {
 		left: calc(50% - 40px);
-		top: 250px;
+		top: 230px;
 		height: 300px;
 	}
 

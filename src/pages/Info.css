@@ -28,7 +28,7 @@
 @media (max-width: 1180px) {
 
 	#info {
-		padding-top: 300px;
+		padding-top: 330px;
 		left: 10px;
 	}
 
@@ -46,13 +46,13 @@
 @media (max-width: 600px) {
 
 	#info {
-		padding-top: 40px;
+		padding-top: 90px;
 	}
 
 	.slogan.info {
 		font-size: 30px;
 		top: -90px;
-		left: -27px;
+		left: -33px;
 	}
 
 	.business {
@@ -71,7 +71,7 @@
 	.slogan.info {
 		font-size: 23px;
 		top: -200px;
-		left: calc(50% - 155px);
+		left: calc(50% - 163px);
 	}
 
 	.business {
@@ -90,7 +90,7 @@
 	.slogan.info {
 		font-size: 23px;
 		top: -200px;
-		left: calc(50% - 140px);
+		left: calc(50% - 145px);
 	}
 
 	.business {
@@ -103,7 +103,7 @@
 @media (max-width: 300px) {
 
 	#info {
-		padding-top: 100px;
+		padding-top: 20px;
 	}
 
 	.slogan.info {
@@ -123,6 +123,7 @@
 
 	#info {
 		padding-top: 0px;
+		top: -30px;
 	}
 
 	.slogan.info {
@@ -138,7 +139,13 @@
 	}
 }
 
-@media (max-width: 250px) {
+@media (max-width: 248px) {
+
+	#info {
+		top: -40px;
+		left: 40px;
+	}
+
 	.business {
 		top: 65px;
 	}

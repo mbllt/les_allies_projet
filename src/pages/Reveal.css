@@ -1,6 +1,7 @@
 #reveal {
 	/* background-color: blue; */
 	position: relative;
+	padding-top: 30px;
 }
 
 .text.reveal {
@@ -98,12 +99,12 @@
 @media (max-width: 600px) {
 
 	#reveal {
-		top: -400px;
+		top: -370px;
 	}
 
 	.logo {
 		top: -225px;
-		left: calc(50% - 200px);
+		left: calc(50% - 210px);
 	}
 
 	.logo .les {
@@ -136,7 +137,7 @@
 @media (max-width: 400px) {
 
 	#reveal {
-		top: -500px;
+		top: -530px;
 	}
 
 	.logo {
@@ -175,7 +176,7 @@
 @media (max-width: 300px) {
 
 	#reveal {
-		top: -500px;
+		top: -540px;
 	}
 
 	.logo {
