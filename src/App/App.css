@@ -4,18 +4,27 @@
 }
 
 @font-face {
-	font-family: 'NeueHaas75Bold' ;
-	src: url('/assets/fonts/NeueHaasDisplayBold.ttf') format('truetype');
-}
-
-@font-face {
 	font-family: 'NeueHaas55' ;
-	src: url('/assets/fonts/NeueHaasDisplayRoman.ttf') format('truetype');
+	src: url('/assets/fonts/NeueHaasDisplay-Roman.ttf') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Roman.otf') format('opentype'),
+			url('/assets/fonts/NeueHaasDisplay-Roman.woff') format('opentype'),
+			url('/assets/fonts/NeueHaasDisplay-Roman.woff2') format('opentype');
 }
 
 @font-face {
 	font-family: 'NeueHaas65' ;
-	src: url('/assets/fonts/NeueHaasDisplayMedium.ttf') format('truetype');
+	src: url('/assets/fonts/NeueHaasDisplay-Mediu.ttf') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Mediu.otf') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Mediu.woff') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Mediu.woff2') format('truetype');
+}
+
+@font-face {
+	font-family: 'NeueHaas75Bold' ;
+	src: url('/assets/fonts/NeueHaasDisplay-Bold.ttf') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Bold.otf') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Bold.woff') format('truetype'),
+			url('/assets/fonts/NeueHaasDisplay-Bold.woff2') format('truetype');
 }
 
 .App {
@@ -60,8 +69,8 @@
 
 .vector3 {
 	position: absolute;
-	left: calc(50% - 490px);
-	top: 2830px;
+	left: calc(50% - 360px);
+	top: 2670px;
 	height: 1200px;
 }
 
@@ -88,8 +97,8 @@
 	}
 
 	.vector3 {
-		left: calc(50% - 330px);
-		top: 2100px;
+		left: calc(50% - 250px);
+		top: 1960px;
 		height: 1000px;
 	}
 }
@@ -97,7 +106,7 @@
 @media (max-width: 600px) {
 	
 	.App {
-		width: calc(100vw - 50px);
+		width: calc(100vw - 25px);
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -123,8 +132,8 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 220px);
-		top: 1660px;
+		left: calc(50% - 200px);
+		top: 1540px;
 		height: 800px;
 	}
 }
@@ -132,7 +141,7 @@
 @media (max-width: 400px) {
 	
 	.App {
-		width: calc(100vw - 20px);
+		width: calc(100vw - 25px);
 	}
 
 	.slogan {
@@ -157,7 +166,7 @@
 	
 	.vector3 {
 		left: calc(50% - 130px);
-		top: 1440px;
+		top: 1380px;
 		height: 600px;
 	}
 }
@@ -165,7 +174,7 @@
 @media (max-width: 300px) {
 	
 	.App {
-		width: calc(100vw - 20px);
+		width: calc(100vw - 25px);
 	}
 
 	.slogan {
@@ -190,7 +199,7 @@
 	
 	.vector3 {
 		left: calc(50% - 130px);
-		top: 1530px;
+		top: 1430px;
 		height: 600px;
 	}
 }
@@ -224,8 +233,8 @@
 	}
 	
 	.vector3 {
-		left: calc(50% - 100px);
-		top: 880px;
-		height: 400px;
+		left: calc(50% - 90px);
+		top: 800px;
+		height: 450px;
 	}
 }

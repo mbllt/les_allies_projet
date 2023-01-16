@@ -1,7 +1,7 @@
 #contact {
 	/* background-color: tan; */
 	position: relative;
-	top: 670px;
+	top: 600px;
 }
 
 .slogan.contact {
@@ -79,7 +79,7 @@
 @media (max-width: 1180px) {
 
 	#contact {
-		top: 600px;
+		top: 500px;
 		left: -20px;
 	}
 
@@ -113,7 +113,7 @@
 @media (max-width: 600px) {
 
 	#contact {
-		top: 400px;
+		top: 340px;
 		/* left: 2px; */
 		text-align: center;
 	}
@@ -130,7 +130,7 @@
 
 	.logo_contact {
 		padding-top: 50px;
-		left: 10px;
+		left: 15px;
 	}
 	
 	.logo_contact .allies {
@@ -159,7 +159,7 @@
 @media (max-width: 400px) {
 
 	#contact {
-		top: 200px;
+		top: 160px;
 	}
 
 	.slogan.contact {
@@ -167,7 +167,7 @@
 	}
 
 	.logo_contact {
-		left: 10px;
+		left: 15px;
 	}
 	
 	.logo_contact .allies {
@@ -195,14 +195,14 @@
 @media (max-width: 300px) {
 
 	#contact {
-		top: 250px;
+		top: 200px;
 	}
 
 }
 
 @media (max-width: 280px) {
 	#contact {
-		top: -240px;
+		top: -280px;
 	}
 	
 	.slogan.contact {
