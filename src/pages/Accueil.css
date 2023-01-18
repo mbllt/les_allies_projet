@@ -2,13 +2,19 @@
 	background-color: blueviolet;
 	position: relative;
 	width: 100vw;
-	/* height: 100vh; */
-	height: 1000px;
+	height: 100vh;
 	left: 0px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.box_accueil {
+	position: relative;
+	background-color: blue;
+	/* top: 0px; */
+	height: 50%;
 }
 
 .box_slogan_accueil {
@@ -47,7 +53,7 @@
 @media (max-width: 1180px) {
 
 	#accueil {
-		height: 800px;
+		height: 100vh;
 	}
 	
 	#agile {
@@ -60,7 +66,7 @@
 @media (max-width: 650px) {
 
 	#accueil {
-		height: 700px;
+		height: 100vh;
 	}
 
 	#agile {
@@ -73,7 +79,7 @@
 @media (max-width: 450px) {
 
 	#accueil {
-		height: 500px;
+		height: 100vh;
 	}
 
 	#agile {
@@ -86,7 +92,7 @@
 @media (max-width: 350px) {
 
 	#accueil {
-		height: 400px;
+		height: 100vh;
 	}
 
 	#agile {
@@ -99,7 +105,7 @@
 @media (max-width: 280px) {
 
 	#accueil {
-		height: 350px;
+		height: 100vh;
 	}
 
 	#agile {

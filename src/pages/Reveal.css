@@ -3,7 +3,7 @@
 	z-index: -1;
 	position: relative;
 	width: 100vw;
-	height: 1000px;
+	height: 100vh;
 	left: 0px;
 	display: flex;
 	flex-direction: column;
@@ -26,7 +26,7 @@
 
 .logo {
 	position: relative;
-	height: 300px;
+	height: 100vh;
 	font-family: 'gotcha-regular';
 	font-weight: normal;
 	color: #E3C0FF;
@@ -67,7 +67,7 @@
 @media (max-width: 1180px) {
 
 	#reveal {
-		height: 800px;
+		height: 100vh;
 	}
 
 	.logo {
@@ -104,7 +104,7 @@
 @media (max-width: 650px) {
 
 	#reveal {
-		height: 600px;
+		height: 100vh;
 	}
 
 	.logo {
@@ -177,7 +177,7 @@
 @media (max-width: 350px) {
 
 	#reveal {
-		height: 500px;
+		height: 100vh;
 	}
 
 	.logo {
@@ -213,7 +213,7 @@
 @media (max-width: 280px) {
 
 	#reveal {
-		height: 300px;
+		height: 100vh;
 	}
 
 	.logo {
