@@ -40,6 +40,7 @@
 	.slogan.info {
 		font-size: 50px;
 		top: -100px;
+		right: 45px;
 	}
 
 	.business {
@@ -77,7 +78,7 @@
 	.slogan.info {
 		font-size: 23px;
 		top: -90px;
-		left: -20px;
+		right: 23px;
 	}
 
 	.business {

@@ -102,8 +102,8 @@
 
 	.slogan_text_contact {
 		font-size: 60px;
-		right: 10px;
-		top: 0px;
+		right: 18px;
+		top: -30px;
 	}
 
 	.logo_contact {
@@ -132,6 +132,10 @@
 }
 
 @media (max-width: 650px) {
+
+	.slogan_text_contact {
+		top: 10px;
+	}
 
 	#contact {
 		height: 600px;
@@ -186,6 +190,7 @@
 
 	.slogan_text_contact {
 		right: 0px;
+		top: 20px;
 	}
 
 	.slogan.contact {
@@ -229,9 +234,13 @@
 		margin-top: 190px;
 		margin-left: 20px;
 	}
+
+	.slogan_text_contact {
+		right: 20px;
+	}
 	
 	.slogan.contact {
-		left: 10px;
+		left: 0px;
 	}
 	
 	.text.contact {

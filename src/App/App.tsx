@@ -14,7 +14,6 @@ function App() {
       <Accueil/>
   		<img id='vector1' src="/assets/vec/vec1.svg" alt="vector"/>
       <Reveal/>
-  		{/* <img className='vector2' src="/assets/vec/vec2.svg" alt="vector"/> */}
   		<img id='vector2' src="/assets/vec/vec2.svg" alt="vector"/>
       <Info/>
           <source srcSet="/assets/vec/vec3.svg" media="(max-width: 500px)"/>
