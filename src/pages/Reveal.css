@@ -1,6 +1,5 @@
 #reveal {
-	background-color: blue;
-	z-index: -1;
+	/* background-color: blue; */
 	position: relative;
 	width: 100vw;
 	height: 1000px;

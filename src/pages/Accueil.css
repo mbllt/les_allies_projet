@@ -1,8 +1,7 @@
 #accueil {
-	background-color: blueviolet;
+	/* background-color: blueviolet; */
 	position: relative;
 	width: 100vw;
-	/* height: 100vh; */
 	height: 1000px;
 	left: 0px;
 	display: flex;
