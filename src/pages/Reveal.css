@@ -1,15 +1,22 @@
 #reveal {
-	/* background-color: blue; */
+	background-color: blue;
+	z-index: -1;
 	position: relative;
-	padding-top: 30px;
+	width: 100vw;
+	height: 1000px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .text.reveal {
 	position: relative;
 	margin-top: 0.5;
 	margin-bottom: 0.5;
-	right: calc(50% + 190px);
-	top: 220px;
+	right: 400px;
+	top: 30px;
 }
 
 .text.reveal :first-child {
@@ -23,8 +30,11 @@
 	font-family: 'gotcha-regular';
 	font-weight: normal;
 	color: #E3C0FF;
-	top: -360px;
 	transition: color 0.8s;
+	top: -130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .logo:hover, .logo:focus {
@@ -35,7 +45,7 @@
 .logo .les {
 	position: relative;
 	font-size: 110px;
-	top: 450px;
+	top: 550px;
 }
 
 .logo .allies {
@@ -46,7 +56,7 @@
 
 .logo .com {
 	position: relative;
-	top: -360px;
+	top: -390px;
 	font-family: 'NeueHaas55';
 	font-weight: bold;
 	font-size: 28px;
@@ -54,40 +64,35 @@
 	letter-spacing: 5px;
 }
 
-@media (max-width: 1300px) {
-	.text.reveal {
-		right: calc(50% + 80px);
-	}
-}
-
 @media (max-width: 1180px) {
 
 	#reveal {
-		top: -300px;
+		height: 800px;
 	}
 
 	.logo {
-		top: -300px;
+		top: -220px;
 	}
 
 	.logo .les {
 		font-size: 90px;
-		top: 380px;
+		top: 460px;
 		left: 27px;
 	}
-
+	
 	.logo .allies {
 		font-size: 220px;
 	}
 
 	.logo .com {
-		font-size: 25px;
-		top: -300px;
+		font-size: 24px;
+		top: -330px;
+		left: 15px;
 	}
 
 	.text.reveal {
-		right: calc(50% - 100px);
-		top: 670px;
+		right: 200px;
+		top: -150px;
 	}
 
 	.text.reveal :first-child {
@@ -96,98 +101,93 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
 	#reveal {
-		top: -370px;
+		height: 600px;
 	}
 
 	.logo {
-		top: -225px;
-		left: calc(50% - 210px);
+		top: -210px;
 	}
 
 	.logo .les {
 		font-size: 68px;
-		top: 260px;
-		left: 80px;
+		top: 320px;
+		left: 8px;
 	}
-
+	
 	.logo .allies {
 		font-size: 150px;
+		right: 10px;
 	}
-
+	
 	.logo .com {
 		font-size: 14px;
-		top: -210px;
-		left: 75px;
+		top: -220px;
+		left: -5px;
 	}
-
+	
 	.text.reveal {
-		right: calc(50% - 80px);
-		top: 460px;
+		right: 100px;
+		top: -100px;
 	}
 
 	.text.reveal :first-child {
-		font-size: 20px;
-		margin-bottom: -10px;
+		font-size: 19px;
 	}
 }
 
-@media (max-width: 400px) {
-
-	#reveal {
-		top: -530px;
-	}
+@media (max-width: 450px) {
 
 	.logo {
-		top: -100px;
-		left: calc(50% - 210px);
+		top: -170px;
+		left: 8px;
 	}
 
 	.logo .les {
 		font-size: 50px;
-		top: 170px;
-		left: 125px;
+		top: 220px;
+		left: -3px;
 	}
-
+	
 	.logo .allies {
 		font-size: 100px;
+		right: 10px;
 	}
 
 	.logo .com {
 		font-size: 11px;
-		top: -135px;
-		left: 115px;
+		top: -145px;
+		left: -5px;
 		letter-spacing: 2px;
 	}
 
 	.text.reveal {
-		right: calc(50% - 60px);
-		top: 420px;
+		right: 70px;
+		top: 310px;
 	}
 
 	.text.reveal :first-child {
-		font-size: 12px;
+		font-size: 18px;
 		margin-bottom: -4px;
 	}
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
 
 	#reveal {
-		top: -540px;
+		height: 500px;
 	}
 
 	.logo {
-		top: 0px;
-		left: calc(50% - 205px);
+		top: -80px;
+		left: -3px;
 	}
 
 	.logo .les {
 		font-size: 38px;
-		top: 140px;
-		left: 138px;
+		top: 173px;
 	}
 
 	.logo .allies {
@@ -196,29 +196,32 @@
 
 	.logo .com {
 		font-size: 8px;
-		top: -110px;
-		left: 135px;
-		letter-spacing: 2px;
+		top: -118px;
 	}
 
 	.text.reveal {
-		right: calc(50% - 60px);
-		top: 440px;
+		right: 50px;
+		top: 340px;
 	}
 
 	.text.reveal :first-child {
-		font-size: 12px;
-		margin-bottom: -4px;
+		font-size: 14px;
+		margin-bottom: -8px;
 	}
 }
 
 @media (max-width: 280px) {
-	.logo {
-		top: -190px;
-		left: calc(50% - 205px);
+
+	#reveal {
+		height: 300px;
 	}
+
+	.logo {
+		top: -110px;
+	}
+
 	.text.reveal {
-		right: calc(50% - 60px);
-		top: 190px;
+		top: 240px;
+		right: 30px;
 	}
 }

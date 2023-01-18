@@ -41,7 +41,6 @@
 }
 
 .slogan {
-	position: absolute;
 	font-size: 100px;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -55,23 +54,25 @@
 	margin-bottom: 0.5;
 }
 
-.vector1 {
+#vector1 {
 	position: absolute;
 	left: calc(50% - 110px);
 	top: 730px;
+	height: 700px;
 }
 
-.vector2 {
+#vector2 {
+	position: absolute;
+	left: calc(50% - 300px);
+	top: 1800px;
+	height: 650px;
+}
+
+#vector3 {
 	position: absolute;
 	left: calc(50% - 400px);
-	top: 1650px;
-}
-
-.vector3 {
-	position: absolute;
-	left: calc(50% - 360px);
-	top: 2670px;
-	height: 1200px;
+	top: 2640px;
+	height: 900px;
 }
 
 @media (max-width: 1180px) {
@@ -84,26 +85,55 @@
 		font-size: 19px;
 	}
 
-	.vector1 {
-		left: calc(50% - 105px);
-		top: 540px;
-		height: 800px;
+	#vector1 {
+		left: calc(50% - 17	0px);
+		top: 500px;
+		height: 600px;
 	}
 
-	.vector2 {
+	#vector2 {
 		left: calc(50% - 240px);
-		top: 1300px;
-		height: 800px;
+		top: 1315px;
+		height: 500px;
 	}
 
-	.vector3 {
+	#vector3 {
 		left: calc(50% - 250px);
-		top: 1960px;
-		height: 1000px;
+		top: 1900px;
+		height: 700px;
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
+
+	.slogan {
+		font-size: 60px;
+	}
+
+	.text {
+		font-size: 19px;
+	}
+
+	#vector1 {
+		left: calc(50% - 160px);
+		top: 500px;
+		height: 600px;
+	}
+
+	#vector2 {
+		left: calc(50% - 240px);
+		top: 1315px;
+		height: 500px;
+	}
+
+	#vector3 {
+		left: calc(50% - 250px);
+		top: 1900px;
+		height: 700px;
+	}
+}
+
+@media (max-width: 650px) {
 	
 	.App {
 		width: calc(100vw - 25px);
@@ -119,59 +149,59 @@
 		font-size: 15px;
 	}
 	
-	.vector1 {
-		left: calc(50% - 90px);
-		top: 480px;
-		height: 600px;
+	#vector1 {
+		left: calc(50% - 30px);
+		top: 490px;
+		height: 350px;
 	}
 
-	.vector2 {
+	#vector2 {
 		left: calc(50% - 170px);
 		top: 1060px;
-		height: 600px;
+		height: 350px;
 	}
 	
-	.vector3 {
+	#vector3 {
 		left: calc(50% - 200px);
-		top: 1540px;
-		height: 800px;
+		top: 1480px;
+		height: 500px;
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 	
 	.App {
 		width: calc(100vw - 25px);
 	}
 
 	.slogan {
-		font-size: 33px;
+		font-size: 31px;
 	}
 	
 	.text {
 		font-size: 13px;
 	}
 	
-	.vector1 {
+	#vector1 {
 		left: calc(50% - 110px);
 		top: 400px;
-		height: 500px;
+		height: 300px;
 	}
 
-	.vector2 {
+	#vector2 {
 		left: calc(50% - 140px);
 		top: 860px;
-		height: 500px;
+		height: 300px;
 	}
 	
-	.vector3 {
-		left: calc(50% - 130px);
-		top: 1300px;
-		height: 600px;
+	#vector3 {
+		left: calc(50% - 200px);
+		top: 1210px;
+		height: 400px;
 	}
 }
 
-@media (max-width: 300px) {
+@media (max-width: 350px) {
 	
 	.App {
 		width: calc(100vw - 25px);
@@ -185,22 +215,22 @@
 		font-size: 9px;
 	}
 	
-	.vector1 {
+	#vector1 {
 		left: calc(50% - 110px);
-		top: 380px;
-		height: 500px;
+		top: 300px;
+		height: 330px;
 	}
 
-	.vector2 {
+	#vector2 {
 		left: calc(50% - 160px);
-		top: 830px;
-		height: 500px;
+		top: 740px;
+		height: 300px;
 	}
 	
-	.vector3 {
-		left: calc(50% - 130px);
-		top: 1280px;
-		height: 600px;
+	#vector3 {
+		left: calc(50% - 150px);
+		top: 1100px;
+		height: 380px;
 	}
 }
 
@@ -220,21 +250,21 @@
 		font-size: 7px;
 	}
 	
-	.vector1 {
+	#vector1 {
 		left: calc(50% - 40px);
-		top: 230px;
-		height: 300px;
+		top: 200px;
+		height: 230px;
 	}
 
-	.vector2 {
+	#vector2 {
 		left: calc(50% - 80px);
 		top: 530px;
-		height: 300px;
+		height: 200px;
 	}
 	
-	.vector3 {
+	#vector3 {
 		left: calc(50% - 90px);
-		top: 800px;
-		height: 450px;
+		top: 790px;
+		height: 280px;
 	}
 }

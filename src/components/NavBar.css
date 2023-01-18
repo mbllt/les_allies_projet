@@ -6,10 +6,11 @@
 	padding-top: 40px;
 	padding-bottom: 40px;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: flex-end;
-	z-index: 10;
+	justify-content: center;
+	z-index: 20;
+	margin-left: 0px;
+	padding-left: 0px;
+	/* left: 0px; */
 }
 
 .navbar a {
@@ -21,6 +22,14 @@
 	letter-spacing: 1px;
 }
 
+.content_navbar {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	/* left: 2px; */
+}
+
 .content_navbar a {
 	padding-left: 40px;
 	padding-right: 40px;
@@ -28,10 +37,6 @@
 
 .navbar img {
 	height: 4em;
-}
-
-.navbar.active {
-	left: 14px;
 }
 
 @media (max-width: 600px) {
@@ -49,11 +54,6 @@
 		font-size: 17px;
 		top: -8px;
 	}
-
-	.navbar.active {
-		left: 5.3px;
-	}
-	
 }
 
 @media (max-width: 400px) {
@@ -67,11 +67,6 @@
 		font-size: 15px;
 		top: -8px;
 	}
-
-	.navbar.active {
-		left: 4.6px;
-	}
-	
 }
 
 @media (max-width: 315px) {
@@ -87,11 +82,6 @@
 		padding-right: 20px;
 		top: -10px;
 	}
-	
-	.navbar.active {
-		left: 4px;
-	}
-	
 }
 
 @media (max-width: 280px) {

@@ -1,14 +1,20 @@
 #info {
 	position: relative;
-	padding-top: 850px;
-	/* background-color: slategrey; */
+	width: 100vw;
+	height: 1000px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .slogan.info {
 	position: relative;
 	font-size: 90px;
 	font-weight: bold;
-	right: 50px;
+	right: 60px;
+	top: 50px;
 }
 
 .regular {
@@ -28,12 +34,12 @@
 @media (max-width: 1180px) {
 
 	#info {
-		padding-top: 330px;
-		left: 10px;
+		height: 700px;
 	}
 
 	.slogan.info {
 		font-size: 50px;
+		top: -100px;
 	}
 
 	.business {
@@ -43,16 +49,16 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
 	#info {
-		padding-top: 90px;
+		height: 400px;
 	}
 
 	.slogan.info {
 		font-size: 30px;
-		top: -90px;
-		left: -33px;
+		top: -55px;
+		left: -20px;
 	}
 
 	.business {
@@ -62,16 +68,16 @@
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
 	#info {
-		padding-top: 0px;
+		height: 330px;
 	}
 
 	.slogan.info {
 		font-size: 23px;
-		top: -200px;
-		left: calc(50% - 163px);
+		top: -90px;
+		left: -20px;
 	}
 
 	.business {
@@ -81,35 +87,16 @@
 	}
 }
 
-@media (max-width: 315px) {
+@media (max-width: 350px) {
 
 	#info {
-		padding-top: 0px;
+		height: 280px;
 	}
 
 	.slogan.info {
 		font-size: 23px;
-		top: -200px;
-		left: calc(50% - 145px);
-	}
-
-	.business {
-		font-size: 34px;
-		top: 50px;
+		top: 20px;
 		left: 0px;
-	}
-}
-
-@media (max-width: 300px) {
-
-	#info {
-		padding-top: 20px;
-	}
-
-	.slogan.info {
-		font-size: 23px;
-		top: -200px;
-		left: calc(50% - 140px);
 	}
 
 	.business {
@@ -122,38 +109,18 @@
 @media (max-width: 280px) {
 
 	#info {
-		padding-top: 0px;
-		top: -30px;
+		height: 200px;
 	}
 
 	.slogan.info {
 		font-size: 20px;
-		top: -520px;
-		left: calc(50% - 130px);
-	}
-
-	.business {
-		font-size: 34px;
-		top: 50px;
+		top: 10px;
 		left: 0px;
 	}
-}
-
-@media (max-width: 248px) {
-
-	#info {
-		top: -40px;
-		left: 40px;
-	}
 
 	.business {
-		top: 65px;
-	}
-}
-
-@media (max-width: 200px) {
-
-	.business {
-		top: 80px;
+		font-size: 32px;
+		top: 50px;
+		left: 0px;
 	}
 }

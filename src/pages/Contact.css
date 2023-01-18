@@ -1,14 +1,27 @@
 #contact {
-	/* background-color: tan; */
 	position: relative;
-	top: 600px;
+	width: 100vw;
+	height: 800px;
+	margin-top: 150px;
+	padding-top: 150px;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.slogan_text_contact {
+	position: relative;
+	right: 150px;
+	top: 60px;
+	text-align: left;
 }
 
 .slogan.contact {
 	position: relative;
 	font-weight: bold;
 	font-size: 80px;
-	right: 140px;
 }
 
 .nous {
@@ -17,13 +30,18 @@
 
 .text.contact {
 	position: relative;
-	right: 140px;
+	left: 10px;
 	top: -50px;
+}
+
+.bold_contact_text {
+	font-family: 'NeueHaas75Bold';
 }
 
 .logo_contact {
 	position: relative;
 	height: 300px;
+	width: 200px;
 	font-family: 'gotcha-regular';
 	font-weight: normal;
 	color: white;
@@ -32,29 +50,29 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	top: -70px;
+	top: 0px;
 }
 
 .logo_contact .les {
 	position: absolute;
-	font-size: 3rem;
-	top: 35px;
-	right: 322px;
+	font-size: 55px;
+	top: 18px;
+	right: 140px;
 }
 
 .logo_contact .allies {
 	position: relative;
-	font-size: 6rem;
+	font-size: 110px;
 }
 
 .logo_contact .com {
 	position: absolute;
-	font-family: 'NeueHaas55';
+	font-family: 'NeueHaas65';
 	word-spacing: 2px;
 	letter-spacing: 2px;
-	font-size: 0.7rem;
-	top: 173px;
-	left: 205px;
+	font-size: 11px;
+	top: 177px;
+	right: 23px;
 }
 
 .link_contact {
@@ -63,7 +81,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	top: -130px;
+	top: -40px;
 }
 
 .link_contact a {
@@ -79,30 +97,29 @@
 @media (max-width: 1180px) {
 
 	#contact {
-		top: 500px;
-		left: -20px;
+		height: 700px;
 	}
 
-	.slogan.contact {
+	.slogan_text_contact {
 		font-size: 60px;
-		right: 60px;
+		right: 10px;
+		top: 0px;
 	}
-	
-	.text.contact {
-		right: 60px;
-		top: -50px;
+
+	.logo_contact {
+		width: 250px;
 	}
 	
 	.logo_contact .les {
-		right: 258px;
+		right: 170px;
 		font-size: 2.5rem;
 		top: 50px;
 	}
 	
 	.logo_contact .com {
-		font-size: 0.65rem;
+		font-size: 12px;
 		font-weight: bold;
-		left: 140px;
+		left: 40px;
 	}
 
 	.link_contact img {
@@ -110,64 +127,64 @@
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
 	#contact {
-		top: 340px;
-		/* left: 2px; */
-		text-align: center;
+		height: 600px;
+		margin-top: 110px;
 	}
 
 	.slogan.contact {
-		font-size: 38px;
-		right: 0px !important;
+		font-size: 40px;
 	}
-	
+
 	.text.contact {
-		top: 0px;
-		right: 0px !important;
+		top: 10px;
+		left: 0px;
 	}
 
 	.logo_contact {
 		padding-top: 50px;
-		left: 11px;
+		left: 0px;
+		width: 300px;
 	}
 	
 	.logo_contact .allies {
-		font-size: 70px;
+		font-size: 90px;
 	}
 	
 	.logo_contact .les {
-		font-size: 35px;
-		top: 113px;
-		right: 168px;
+		font-size: 40px;
+		top: 103px;
+		right: 185px;
 	}
 	
 	.logo_contact .com {
-		font-size: 7px;
+		font-size: 10px;
 		top: 220px;
-		left: 85px;
+		left: 75px;
 		word-spacing: 1px;
 	}
 	
 	.link_contact {
 		padding-top: 50px;
-		left: 10px;
+		left: 0px;
 	}
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
 	#contact {
-		top: 130px;
+		height: 500px;
+		margin-top: 0px;
 	}
 
 	.slogan.contact {
-		font-size: 27px;
+		font-size: 33px;
 	}
 
 	.logo_contact {
-		left: 11px;
+		top: -10px;
 	}
 	
 	.logo_contact .allies {
@@ -176,33 +193,30 @@
 	
 	.logo_contact .les {
 		font-size: 24px;
-		top: 139px;
-		right: 125px;
+		top: 77px;
+		right: 169px;
 	}
 	
 	.logo_contact .com {
-		font-size: 4px;
-		top: 213px;
-		left: 65px;
-		word-spacing: 0.5;
+		font-size: 4.5px;
+		top: 153px;
+		left: 107px;
+		word-spacing: 0.1;
 	}
 
 	.link_contact {
-		padding-top: 50px;
+		font-size: 13px;
+	}
+
+	.link_contact img {
+		height: 30px;
 	}
 }
 
-@media (max-width: 300px) {
-
+@media (max-width: 350px) {
 	#contact {
-		top: 150px;
-	}
-
-}
-
-@media (max-width: 280px) {
-	#contact {
-		top: -300px;
+		height: 400px;
+		margin-top: 150px;
 	}
 	
 	.slogan.contact {
@@ -223,13 +237,18 @@
 	}
 }
 
-@media (max-width: 248px) {
+@media (max-width: 280px) {
 
 	#contact {
-		top: -330px;
+		height: 300px;
+		margin-top: 120px;
+	}
+
+	.slogan.contact {
+		font-size: 28px;
 	}
 
 	.text.contact {
-		left: 50px;
+		left: 40px;
 	}
 }

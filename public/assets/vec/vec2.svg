@@ -2,36 +2,18 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="160mm"
-   height="297mm"
-   viewBox="0 0 160 297"
+   width="150mm"
+   height="170mm"
+   viewBox="0 0 150 170"
    version="1.1"
    id="svg5"
    xml:space="preserve"
-   inkscape:export-filename="newvec2.svg"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
-     id="namedview7"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="mm"
-     showgrid="false" /><defs
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs2" /><g
-     inkscape:label="Calque 1"
-     inkscape:groupmode="layer"
      id="layer1"><path
-       d="M 127.74592,35.015278 C 165.57055,67.839446 167.1691,90.445486 140.90206,105.79132 5.1623331,194.86431 26.807913,225.1184 40.301653,247.60799"
+       d="M 115.17888,4.4502428 C 153.00351,37.274411 154.60206,59.880451 128.33502,75.226285 76.176746,109.45277 33.053498,133.20233 38.002998,154.74852"
        stroke="#ffffff"
        stroke-width="3"
        id="path172"
-       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1"
-       sodipodi:nodetypes="ccc" /></g></svg>
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.79375;stroke-dasharray:none;stroke-opacity:1" /></g></svg>
