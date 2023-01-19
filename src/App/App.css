@@ -27,10 +27,6 @@
 			url('/assets/fonts/NeueHaasDisplay-Bold.woff2') format('truetype');
 }
 
-body {
-	overflow: hidden;
-}
-
 .App {
 	max-width: calc(1540vw - 160px);
 	width: 100vw;
@@ -176,7 +172,6 @@ body {
 	
 	.App {
 		width: calc(100vw - 25px);
-		/* padding-top: 7px; */
 	}
 
 	.slogan {
