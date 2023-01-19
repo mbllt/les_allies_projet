@@ -9,6 +9,7 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	right:
 }
 
 .slogan_text_contact {
@@ -95,13 +96,13 @@
 
 @media (max-width: 650px) {
 	
-	.slogan_text_contact {
-		top: 10px;
-	}
-	
 	#contact {
 		height: 500px;
 		margin-top: 110px;
+	}
+	
+	.slogan_text_contact {
+		top: 10px;
 	}
 	
 	.slogan.contact {
@@ -165,9 +166,7 @@
 
 @media (max-width: 350px) {
 	#contact {
-		height: 300px;
-		margin-top: 190px;
-		margin-left: 20px;
+		height: 550px;
 	}
 
 	.logo_contact {
@@ -176,7 +175,7 @@
 
 	.link_contact {
 		font-size: 12px;
-		padding-bottom: 70px;
+		padding-bottom: 20px;
 	}
 
 	.link_contact img {
