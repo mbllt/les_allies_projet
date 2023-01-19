@@ -73,18 +73,20 @@
 
 	#info {
 		height: 330px;
+		text-align: center;
 	}
 
 	.slogan.info {
 		font-size: 23px;
 		top: -90px;
-		right: 23px;
+		left:0px;
 	}
 
 	.business {
 		font-size: 34px;
-		top: 20px;
-		left: 190px;
+		top: 50px;
+		/* left: 190px; */
+		left: 0px;
 	}
 }
 

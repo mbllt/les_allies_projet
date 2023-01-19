@@ -9,14 +9,7 @@ const Contact = () => {
 				<p className='text contact'>Basés à Lyon, nous serions ravis de <span className='bold_contact_text'>vous accompagner<br/>
 				</span> ou simplement de <span className='bold_contact_text'>répondre à vos questions.</span></p>
 			</div>
-
-			{/* <div className='logo_contact'> */}
-				{/* <p className='les'>les</p>
-				<p className='allies'>alliés</p>
-				<p className='com'>COMMUNICATION AGILE</p> */}
-				<img className='logo_contact' src="/assets/logo/logo.svg" alt="smallLogo"/>
-			{/* </div> */}
-
+			<img className='logo_contact' src="/assets/logo/logo.svg" alt="smallLogo"/>
 			<div className='link_contact'>
 				<a className='mail_contact'>noemie@lesalliesdelacom.com</a>
 				<a className='phone_contact'>06.32.95.14.76</a>
