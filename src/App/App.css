@@ -176,6 +176,7 @@ body {
 	
 	.App {
 		width: calc(100vw - 25px);
+		/* padding-top: 7px; */
 	}
 
 	.slogan {
