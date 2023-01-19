@@ -10,11 +10,12 @@ const Contact = () => {
 				</span> ou simplement de <span className='bold_contact_text'>répondre à vos questions.</span></p>
 			</div>
 
-			<div className='logo_contact'>
-				<p className='les'>les</p>
+			{/* <div className='logo_contact'> */}
+				{/* <p className='les'>les</p>
 				<p className='allies'>alliés</p>
-				<p className='com'>COMMUNICATION AGILE</p>
-			</div>
+				<p className='com'>COMMUNICATION AGILE</p> */}
+				<img className='logo_contact' src="/assets/logo/logo.svg" alt="smallLogo"/>
+			{/* </div> */}
 
 			<div className='link_contact'>
 				<a className='mail_contact'>noemie@lesalliesdelacom.com</a>
