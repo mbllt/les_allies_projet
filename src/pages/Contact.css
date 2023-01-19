@@ -199,6 +199,7 @@
 
 	.logo_contact {
 		top: -10px;
+		left: -13px;
 	}
 	
 	.logo_contact .allies {
@@ -221,6 +222,7 @@
 
 	.link_contact {
 		font-size: 13px;
+		left: -10px;
 	}
 
 	.link_contact img {
@@ -247,8 +249,17 @@
 		left: 10px;
 	}
 
+	.slogan.contact {
+		left: 0px;
+	}
+
+	.logo_contact {
+		left: -20px;
+	}
+
 	.link_contact {
 		font-size: 12px;
+		left: -20px;
 	}
 
 	.link_contact img {
